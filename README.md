@@ -12,6 +12,7 @@ Mike Reekie - Developer
 Diana Liu - Scrum Master
 
 **Roles & Responsibilities**
+
 The Product Owner is also accountable for effective Product Backlog management, which includes:
 - Developing and explicitly communicating the Product Goal;
 - Creating and clearly communicating Product Backlog items;
