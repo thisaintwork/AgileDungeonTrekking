@@ -50,15 +50,15 @@ However, the Developers are always accountable for:
 - Player looking for a team/campaign
 
 **User Persona:**
-Name: Lexi Player 1
-Role: Player in a team campaign - Druid
-Age: 12
-Gender: F
-Computer Skills: Word, Excel, Powerpoint, Google suite
-Apps Used: TikTok, Instagram, You Tube
-D&D Skills: first campaign
-Motivation: have fun, role play 
-Desires/wants/needs: Change into animals, make friends with NPC animals
+- Name: Lexi Player 1
+- Role: Player in a team campaign - Druid
+- Age: 12
+- Gender: F
+- Computer Skills: Word, Excel, Powerpoint, Google suite, internet browsers
+- Apps Used: TikTok, Instagram, You Tube
+- D&D Skills: first campaign
+- Motivation: have fun, role play 
+- Desires/wants/needs: Change into animals, make friends with NPC animals
 
 **Initial Backlog**:
 1. Shape change options 
