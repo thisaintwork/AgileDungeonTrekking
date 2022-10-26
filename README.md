@@ -1,26 +1,7 @@
 # AgileDungeonTrekking
 This is the repository for Fall CSCI-E71 for the Traveling Players project
 
-
 We used Miro for weekly scrum meetings: https://miro.com/app/board/uXjVPK-7qnU=/
-
-
-Our definition of ready is: 
-
-User story has a clear, complete acceptance criteria
-
-User story has a title
-
-User story addresses a business need
-
-We can measure the acceptance criteria
-
-User story is small enough for implementation in the given time, but large enough to provide customer value
-
-Infrastructure and development tools are ready
-
-Meets the INVEST (Independent, Negotiable, Valuable, Estimable, Small & Testable) criteria
-
 
 **Team Name**: Traveling Players
 
@@ -52,7 +33,7 @@ However, the Developers are always accountable for:
 
 **Canvas Group Name**: Group 4
 
-**Discord Channel**:
+**Discord Channel**: ADD LINK HERE
 
 **Product Name**:  Agile Dungeon Trekking
 
@@ -92,22 +73,26 @@ Desires/wants/needs: Change into animals, make friends with NPC animals
 11. Special party rules
 
 **Rationale for Backlog Ordering**:
+FINISH ME, KELLY!
 
 **True User Stories for PBIs**
 1. Shape change options - I am a druid and I need to know which animals can I shape change into based on my level and character. There are size classes for the animals in D&D and I can only change into the animals that are a certain size. I also have to have seen the animal before either "in person" or through some kind of magic effect. Bascially I need to matching my level to the set of animals in the right size class that I have seen.
 2. Animal stats - Once I have a set of animals, I need some idea of what I can do when I change into that animal. I need to know things like health, attacks (magic and melee), resistences, proficiencies etc.
-3. Take notes -  I want to take notes during the game.
-4. Share notes - Players need to read and edit notes between game sessions
-5. Information about NPCs - I forget which NPCs we met and why they are important
-6. Match NPCs to Quests - I want to know which NPCs gave me quests
-7. Track party loot and gold - Someone needs to keep track of party loot and gold
-8. Quest names & steps - I want everyone to know quests names and steps
+3. Take notes -  I want to take notes during the game. FINISH ME
+4. Share notes - Players need to read and edit notes between game sessions FINISH ME
+5. Information about NPCs - I forget which NPCs we met and why they are important FINISH ME
+6. Match NPCs to Quests - I want to know which NPCs gave me quests FINISH ME
+7. Track party loot and gold - Someone needs to keep track of party loot and gold FINISH ME
+8. Quest names & steps - I want everyone to know quests names and steps FINISH ME
 9. Track progress against quests -  Sometimes our party forgets which steps we still have to accomplish to get a quest done. I'd like to check off quest steps when we complete them, and also know what quests we have already done. 
 10. Track party movement - As a player, I need to know where I am in the D&D world. Usually, we have to travel to different locations to accomplish quest items. If we know where we are on the “world” map, then we can plan the best route and order of our quest steps much easier. Sometimes we split the party and go to different locations and need to plan where we will meet up again.
 11. Special party rules - I forget the special party rules that the DM created for our campaign. They are not in any books or on the internet because they are only being used by our team. I need to know the rules so I can take advantage of them.
 
 **Definition of Ready**:
-- Form a Scrum team: Form a team, name your team, volunteer for Scrum roles, create a Slack channel, create a public git repository.
-- Create a product vision: Articulate your far vision and your near vision, identify your stakeholders.
-- Create your initial product backlog: Create initial product backlog items as user stories, order your product backlog.
-- Get your product backlog Ready: Estimate the size of your backlog items and do everything you think you need to do to be ready for sprint planning.
+- User story has a clear, complete acceptance criteria
+- User story has a title
+- User story addresses a business need
+- We can measure the acceptance criteria
+- User story is small enough for implementation in the given time, but large enough to provide customer value
+- Infrastructure and development tools are ready
+- Meets the INVEST (Independent, Negotiable, Valuable, Estimable, Small & Testable) criteria
