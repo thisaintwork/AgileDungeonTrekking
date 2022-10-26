@@ -22,52 +22,52 @@ Infrastructure and development tools are ready
 Meets the INVEST (Independent, Negotiable, Valuable, Estimable, Small & Testable) criteria
 
 
-Team Name: Traveling Players
+**Team Name**: Traveling Players
 
-Team Members: 
+**Team Members:**
 Kelly Robertson - Product Owner
 Drew Fitzgerald - Developer
 Mike Reekie - Developer
 Diana Liu - Scrum Master
 
-Roles & Responsibilities
+**Roles & Responsibilities**
 The Product Owner is also accountable for effective Product Backlog management, which includes:
-● Developing and explicitly communicating the Product Goal;
-● Creating and clearly communicating Product Backlog items;
-● Ordering Product Backlog items; and,
-● Ensuring that the Product Backlog is transparent, visible and understood.
+- Developing and explicitly communicating the Product Goal;
+- Creating and clearly communicating Product Backlog items;
+- Ordering Product Backlog items; and,
+- Ensuring that the Product Backlog is transparent, visible and understood.
 
 The Scrum Master serves the Scrum Team in several ways, including:
-● Coaching the team members in self-management and cross-functionality;
-● Helping the Scrum Team focus on creating high-value Increments that meet the Definition of Done;
-● Causing the removal of impediments to the Scrum Team’s progress; and,
-● Ensuring that all Scrum events take place and are positive, productive, and kept within the timebox.
+- Coaching the team members in self-management and cross-functionality;
+- Helping the Scrum Team focus on creating high-value Increments that meet the Definition of Done;
+- Causing the removal of impediments to the Scrum Team’s progress; and,
+- Ensuring that all Scrum events take place and are positive, productive, and kept within the timebox.
 
 The Developers are the people in the Scrum Team that are committed to creating any aspect of a usable increment each Sprint. The specific skills needed by the Developers are often broad and will vary with the domain of work:
 However, the Developers are always accountable for:
-● Creating a plan for the Sprint, the Sprint Backlog;
-● Instilling quality by adhering to a Definition of Done;
-● Adapting their plan each day toward the Sprint Goal; and,
-● Holding each other accountable as professionals.
+- Creating a plan for the Sprint, the Sprint Backlog;
+- Instilling quality by adhering to a Definition of Done;
+- Adapting their plan each day toward the Sprint Goal; and,
+- Holding each other accountable as professionals.
 
-Canvas Group Name: Group 4
+**Canvas Group Name**: Group 4
 
-Discord Channel:
+**Discord Channel**:
 
-Product Name:  Agile Dungeon Trekking
+**Product Name**:  Agile Dungeon Trekking
 
-Product Description:  Open source app that allows a Dungeon Master and a group of D&D players to store information about their campaign including character details, maps, non-player character (NPC) details, group loot, session notes, and personal notes. 
+**Product Description**:  Open source app that allows a Dungeon Master and a group of D&D players to store information about their campaign including character details, maps, non-player character (NPC) details, group loot, session notes, and personal notes. 
 
-Far Vision:  Playing together even though you are far away, link different teams and campaigns together online
+**Far Vision**:  Play better together even when you are far away - Improve gameplay and collaboration for teams playing in person or online across multiple campaigns and player characters
 
-Near Vision:  Improve collaboration between team members playing online for a single team running a campaign
+**Near Vision**: Play better together - Improve game play for team members playing as a single team running a campaign
 
-Stakeholder Types:
-Dungeon Master
-Player in a team/campaign
-Player looking for a team/campaign
+**Stakeholder Types:**
+- Dungeon Master
+- Player in a team/campaign
+- Player looking for a team/campaign
 
-User Persona: 
+**User Persona:**
 Name: Lexi Player 1
 Role: Player in a team campaign - Druid
 Age: 12
@@ -78,7 +78,7 @@ D&D Skills: first campaign
 Motivation: have fun, role play 
 Desires/wants/needs: Change into animals, make friends with NPC animals
 
-Initial Backlog:
+**Initial Backlog**:
 1. Shape change options 
 2. Animal stats 
 3. Take notes 
@@ -91,8 +91,7 @@ Initial Backlog:
 10. Track party movement
 11. Special party rules
 
-
-Rationale for Backlog Ordering:
+**Rationale for Backlog Ordering**:
 
 **True User Stories for PBIs**
 1. Shape change options - I am a druid and I need to know which animals can I shape change into based on my level and character. There are size classes for the animals in D&D and I can only change into the animals that are a certain size. I also have to have seen the animal before either "in person" or through some kind of magic effect. Bascially I need to matching my level to the set of animals in the right size class that I have seen.
@@ -107,8 +106,8 @@ Rationale for Backlog Ordering:
 10. Track party movement - As a player, I need to know where I am in the D&D world. Usually, we have to travel to different locations to accomplish quest items. If we know where we are on the “world” map, then we can plan the best route and order of our quest steps much easier. Sometimes we split the party and go to different locations and need to plan where we will meet up again.
 11. Special party rules - I forget the special party rules that the DM created for our campaign. They are not in any books or on the internet because they are only being used by our team. I need to know the rules so I can take advantage of them.
 
-Definition of Ready:
-Form a Scrum team: Form a team, name your team, volunteer for Scrum roles, create a Slack channel, create a public git repository.
-Create a product vision: Articulate your far vision and your near vision, identify your stakeholders.
-Create your initial product backlog: Create initial product backlog items as user stories, order your product backlog.
-Get your product backlog Ready: Estimate the size of your backlog items and do everything you think you need to do to be ready for sprint planning.
+**Definition of Ready**:
+- Form a Scrum team: Form a team, name your team, volunteer for Scrum roles, create a Slack channel, create a public git repository.
+- Create a product vision: Articulate your far vision and your near vision, identify your stakeholders.
+- Create your initial product backlog: Create initial product backlog items as user stories, order your product backlog.
+- Get your product backlog Ready: Estimate the size of your backlog items and do everything you think you need to do to be ready for sprint planning.
