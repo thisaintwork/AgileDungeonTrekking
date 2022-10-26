@@ -68,18 +68,46 @@ Player in a team/campaign
 Player looking for a team/campaign
 
 User Persona: 
-Lexi Player 1
+Name: Lexi Player 1
+Role: Player in a team campaign - Druid
+Age: 12
+Gender: F
+Computer Skills: Word, Excel, Powerpoint, Google suite
+Apps Used: TikTok, Instagram, You Tube
+D&D Skills: first campaign
+Motivation: have fun, role play 
+Desires/wants/needs: Change into animals, make friends with NPC animals
 
 Initial Backlog:
+1. Shape change options 
+2. Animal stats 
+3. Take notes 
+4. Share notes 
+5. Information about NPCs
+6. Match NPCs to Quests
+7. Track party loot and gold
+8. Quest names & steps
+9. Track progress against quests
+10. Track party movement
+11. Special party rules
 
 
 Rationale for Backlog Ordering:
 
+**True User Stories for PBIs**
+1. Shape change options - I am a druid and I need to know which animals can I shape change into based on my level and character. There are size classes for the animals in D&D and I can only change into the animals that are a certain size. I also have to have seen the animal before either "in person" or through some kind of magic effect. Bascially I need to matching my level to the set of animals in the right size class that I have seen.
+2. Animal stats - Once I have a set of animals, I need some idea of what I can do when I change into that animal. I need to know things like health, attacks (magic and melee), resistences, proficiencies etc.
+3. Take notes -  I want to take notes during the game.
+4. Share notes - Players need to read and edit notes between game sessions
+5. Information about NPCs - I forget which NPCs we met and why they are important
+6. Match NPCs to Quests - I want to know which NPCs gave me quests
+7. Track party loot and gold - Someone needs to keep track of party loot and gold
+8. Quest names & steps - I want everyone to know quests names and steps
+9. Track progress against quests -  Sometimes our party forgets which steps we still have to accomplish to get a quest done. I'd like to check off quest steps when we complete them, and also know what quests we have already done. 
+10. Track party movement - As a player, I need to know where I am in the D&D world. Usually, we have to travel to different locations to accomplish quest items. If we know where we are on the “world” map, then we can plan the best route and order of our quest steps much easier. Sometimes we split the party and go to different locations and need to plan where we will meet up again.
+11. Special party rules - I forget the special party rules that the DM created for our campaign. They are not in any books or on the internet because they are only being used by our team. I need to know the rules so I can take advantage of them.
 
 Definition of Ready:
-
-
-
 Form a Scrum team: Form a team, name your team, volunteer for Scrum roles, create a Slack channel, create a public git repository.
 Create a product vision: Articulate your far vision and your near vision, identify your stakeholders.
 Create your initial product backlog: Create initial product backlog items as user stories, order your product backlog.
