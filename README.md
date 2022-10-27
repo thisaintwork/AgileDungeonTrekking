@@ -34,7 +34,7 @@ However, the Developers are always accountable for:
 
 **Canvas Group Name**: Group 4
 
-**Discord Channel**: ADD LINK HERE
+**Discord Channel**: https://discord.com/channels/1008812300305702912/1035178215834128395
 
 **Product Name**:  Agile Dungeon Trekking
 
