@@ -63,6 +63,7 @@ However, the Developers are always accountable for:
 - Desires/wants/needs: Change into animals, make friends with NPC animals
 
 **Initial Product Backlog**:
+- Located here: https://github.com/orgs/thisaintwork/projects/3/views/2
 1. Shape change options 
 2. Animal stats 
 3. Take notes 
