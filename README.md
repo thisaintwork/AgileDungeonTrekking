@@ -48,6 +48,8 @@ However, the Developers are always accountable for:
 - Dungeon Master
 - Player in a team/campaign
 - Player looking for a team/campaign
+- Experienced player (> 1 yr playing)
+- Inexperienced or beginner player ( < 1 yr playing)
 
 **User Persona:**
 - Name: Lexi Player 1
