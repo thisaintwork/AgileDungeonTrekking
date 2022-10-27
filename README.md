@@ -49,10 +49,10 @@ However, the Developers are always accountable for:
 - Player in a team/campaign
 - Player looking for a team/campaign
 - Experienced player (> 1 yr playing)
-- Inexperienced or beginner player ( < 1 yr playing) - real person stakeholder is Lexi R.
+- Inexperienced or beginner player ( < 1 yr playing) 
 
 **User Persona:**
-- Name: Lexi Player 1
+- Name: Lexi Player 1 (real person)
 - Role: Player in a team campaign - Druid
 - Age: 12
 - Gender: F
