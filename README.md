@@ -49,7 +49,7 @@ However, the Developers are always accountable for:
 - Player in a team/campaign
 - Player looking for a team/campaign
 - Experienced player (> 1 yr playing)
-- Inexperienced or beginner player ( < 1 yr playing)
+- Inexperienced or beginner player ( < 1 yr playing) - real person stakeholder is Lexi R.
 
 **User Persona:**
 - Name: Lexi Player 1
