@@ -62,7 +62,7 @@ However, the Developers are always accountable for:
 - Motivation: have fun, role play 
 - Desires/wants/needs: Change into animals, make friends with NPC animals
 
-**Initial Backlog**:
+**Initial Product Backlog**:
 1. Shape change options 
 2. Animal stats 
 3. Take notes 
