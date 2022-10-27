@@ -93,10 +93,13 @@ FINISH ME, KELLY!
 11. Special party rules - I forget the special party rules that the DM created for our campaign. They are not in any books or on the internet because they are only being used by our team. I need to know the rules so I can take advantage of them.
 
 **Definition of Ready**:
-- User story has a clear, complete acceptance criteria
 - User story has a title
+- User story opening sentence
+- User story additional details
+- User story has a clear, complete acceptance criteria
+- User story is estimated in story points
 - User story addresses a business need
-- We can measure the acceptance criteria
+- User story has measurable acceptance criteria
 - User story is small enough for implementation in the given time, but large enough to provide customer value
 - Infrastructure and development tools are ready
-- Meets the INVEST (Independent, Negotiable, Valuable, Estimable, Small & Testable) criteria
+- User story meets the INVEST (Independent, Negotiable, Valuable, Estimable, Small & Testable) criteria
