@@ -1,6 +1,8 @@
 # AgileDungeonTrekking
 This is the repository for Fall CSCI-E71 for the Traveling Players project
 
+The project is tracked in the "AgileDungeonTrekking" repo: https://github.com/thisaintwork/AgileDungeonTrekking
+
 We used Miro for weekly scrum meetings: https://miro.com/app/board/uXjVPK-7qnU=/
 
 We also keep a homework backlog in our Github repo here: https://github.com/orgs/thisaintwork/projects/3/views/1
@@ -141,6 +143,6 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 
 **Estimating**
-- PBIs have been estimated in Github using story points. Story points can be found in each PBI on the right-hand side under “show all fields” via this link: https://github.com/orgs/thisaintwork/projects/3/views/2.
+- PBIs have been estimated in Github using story points. Story points can be found in each PBI on the right-hand side under “show all fields”.
 - Our team conducted an “affinity estimating” activity. The results of this activity can be found in Github under the Affinity Estimating tab here: https://github.com/orgs/thisaintwork/projects/3/views/4.
 - As a side note: Only developers participated in estimating PBIs.
