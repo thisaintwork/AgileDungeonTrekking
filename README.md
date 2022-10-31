@@ -142,5 +142,5 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 **Estimating**
 - PBIs have been estimated in Github using story points. Story points can be found in each PBI on the right-hand side under “show all fields”.
-- Our team conducted an “affinity estimating” activity. The results of this activity can be found in Github under the Affinity Estimating tab.
+- Our team conducted an “affinity estimating” activity. The results of this activity can be found in Github under the Affinity Estimating tab here: https://github.com/orgs/thisaintwork/projects/3/views/4.
 - As a side note: Only developers participated in estimating PBIs.
