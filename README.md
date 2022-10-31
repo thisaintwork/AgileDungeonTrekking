@@ -3,6 +3,8 @@ This is the repository for Fall CSCI-E71 for the Traveling Players project
 
 We used Miro for weekly scrum meetings: https://miro.com/app/board/uXjVPK-7qnU=/
 
+We also keep a homework backlog in our Github repo here: https://github.com/orgs/thisaintwork/projects/3/views/1
+
 **Team Name**: Traveling Players
 
 **Team Members:**
