@@ -3,7 +3,8 @@ This is the repository for Fall CSCI-E71 for the Traveling Players project
 
 The project is tracked in the "AgileDungeonTrekking" repo: https://github.com/thisaintwork/AgileDungeonTrekking
 
-We used Miro for weekly scrum meetings: https://miro.com/app/board/uXjVPK-7qnU=/
+We used Miro for weekly scrum meetings. The first board was used for weekly scrum initally: https://miro.com/app/board/uXjVPK-7qnU=/
+We moved to this board: https://miro.com/app/board/uXjVPINzDBE=/. It's a simplified version that focuses on what's working well and isn't working well at the team and project level, rather than by individual and is better suited to the needs of our team. 
 
 We also keep a homework backlog in our Github repo here: https://github.com/orgs/thisaintwork/projects/3/views/1
 
