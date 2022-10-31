@@ -136,3 +136,9 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 - User story is small enough for implementation in the given time, but large enough to provide customer value
 - Infrastructure and development tools are ready
 - User story meets the INVEST (Independent, Negotiable, Valuable, Estimable, Small & Testable) criteria
+
+
+**Estimating**
+- PBIs have been estimated in Github using story points. Story points can be found in each PBI on the right-hand side under “show all fields”.
+- Our team conducted an “affinity estimating” activity. The results of this activity can be found in Github under the Affinity Estimating tab.
+- As a side note: Only developers participated in estimating PBIs.
