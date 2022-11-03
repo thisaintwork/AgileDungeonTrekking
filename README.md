@@ -151,9 +151,9 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 # Project Part 2: First Sprint
 
-#Project Part 2: First Sprint
+# Project Part 2: First Sprint
 
-##Sprint Planning:
+## Sprint Planning:
 
 1.) Forecast for story points per sprint:
 2.) Rationale for forecast:
@@ -169,7 +169,7 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 7.) Sprint Burndown Chart, URL: 
 
 
-##Daily Scrums 
+## Daily Scrums 
 (Dates:.....)
 
 8.) Documentation for daily scrum on .....
@@ -209,14 +209,14 @@ Impediment removal plan:
 14.) Evidence of unit tests, URL: 
 
 
-##Sprint Review
+## Sprint Review
 15.) Sprint review held on: (date)
 
 16.) Working software, URL:
 17.) Evidence of stakeholder attending spring review, URL:
 (product backlog revised based on feedback received)
 
-##Sprint Retrospective
+## Sprint Retrospective
 18.) Sprint review held on: (date)
 
 action to improve team:
