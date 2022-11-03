@@ -151,8 +151,6 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 # Project Part 2: First Sprint
 
-# Project Part 2: First Sprint
-
 ## Sprint Planning:
 
 1.) Forecast for story points per sprint:
@@ -222,4 +220,4 @@ Impediment removal plan:
 action to improve team:
 action plan was made into PBI and placed at top of product backlog:
 
-10.) Note: All of the PBIs in backlog are true user stories
+19.) Note: All of the PBIs in backlog are true user stories
