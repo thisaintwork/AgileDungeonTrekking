@@ -208,14 +208,14 @@ Impediment removal plan:
 
 
 ## Sprint Review
-15.) Sprint review held on: (date)
+15.) Sprint review held on: November 10, 2022 6-6:30 p.m.
 
 16.) Working software, URL:
 17.) Evidence of stakeholder attending spring review, URL:
 (product backlog revised based on feedback received)
 
 ## Sprint Retrospective
-18.) Sprint review held on: (date)
+18.) Sprint review held on: November 10, 2022 6:30-7 p.m.
 
 action to improve team:
 action plan was made into PBI and placed at top of product backlog:
