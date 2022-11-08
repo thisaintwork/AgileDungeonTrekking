@@ -154,28 +154,29 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 ## Sprint Planning:
 
 1.) Forecast for story points per sprint:
-
 2.) Rationale for forecast:
 
 3.) Note: Only developers participated in moving items from product backlog into sprint backlog
 
 
 4.) *All stories in sprint backlog are less than forecast velocity per sprint.
-
 5.) *User stories were decomposed into developer tasks. Tasks are listed in sprint backlog.
 
 
 6.) Sprint Backlog, kanban board URL:
-
 7.) Sprint Burndown Chart, URL: 
 
 
 ## Daily Scrums 
 
 3 November 2022,  6 pm- 7 pm
+
 7 November 2022,  5 pm- 6 pm
+
 8 November 2022,  6 pm- 7 pm
+
 9 November 2022,  6 pm- 7 pm
+
 10 November 2022, 6 pm- 7pm (Sprint Restrospective/Sprint Review)
 
 8.) Documentation for daily scrum on .....
@@ -217,7 +218,9 @@ Meeting Agenda:
 -Discuss Development Tools
 
 9.) includes Last 24 for each team member
+
 10.) includes Next 24 for each team member
+
 11.) includes impediments and impediment removal plans for each team member
 
 Kelly:
@@ -256,6 +259,7 @@ Impediment removal plan:
 15.) Sprint review held on: November 10, 2022 6-6:30 p.m.
 
 16.) Working software, URL:
+
 17.) Evidence of stakeholder attending spring review, URL:
 (product backlog revised based on feedback received)
 
@@ -263,6 +267,7 @@ Impediment removal plan:
 18.) Sprint review held on: November 10, 2022 6:30-7 p.m.
 
 action to improve team:
+
 action plan was made into PBI and placed at top of product backlog:
 
 19.) Note: All of the PBIs in backlog are true user stories
