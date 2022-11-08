@@ -154,16 +154,19 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 ## Sprint Planning:
 
 1.) Forecast for story points per sprint:
+
 2.) Rationale for forecast:
 
 3.) Note: Only developers participated in moving items from product backlog into sprint backlog
 
 
 4.) *All stories in sprint backlog are less than forecast velocity per sprint.
+
 5.) *User stories were decomposed into developer tasks. Tasks are listed in sprint backlog.
 
 
 6.) Sprint Backlog, kanban board URL:
+
 7.) Sprint Burndown Chart, URL: 
 
 
@@ -178,6 +181,8 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 9 November 2022,  6 pm- 7 pm
 
 10 November 2022, 6 pm- 7pm (Sprint Restrospective/Sprint Review)
+
+
 
 8.) Documentation for daily scrum on .....
 3 November 2022, 6 pm- 7 pm
