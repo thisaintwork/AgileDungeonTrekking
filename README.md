@@ -172,6 +172,8 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 ## Daily Scrums 
 
+**Daily Scrum held on:**
+
 - 3 November 2022,  6 pm- 7 pm
 
 - 7 November 2022,  5 pm- 6 pm
