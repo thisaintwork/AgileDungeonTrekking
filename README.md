@@ -153,9 +153,9 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 ## Sprint Planning:
 
-1.) Forecast for story points per sprint:
+**1.) Forecast for story points per sprint:** 16
 
-2.) Rationale for forecast:
+**2.) Rationale for forecast:** Developers needed to produce working software. They found that 16 user story points would be the minimum number necessary to achieve this. Given individual skills and time constraints, 16 seemed like a reasonable forecast for a first sprint.
 
 3.) Note: Only developers participated in moving items from product backlog into sprint backlog
 
