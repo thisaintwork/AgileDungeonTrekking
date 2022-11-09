@@ -185,7 +185,13 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 
 
-8.) Documentation for daily scrum on .....
+**8.) Documentation for daily scrum on .....**
+- **9.) includes Last 24 for each team member**
+- **10.) includes Next 24 for each team member**
+- **11.) includes impediments and impediment removal plans for each team member**
+
+
+
 3 November 2022, 6 pm- 7 pm
 
 ![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
@@ -223,11 +229,7 @@ Meeting Agenda:
 -Agree to Development Timeline
 -Discuss Development Tools
 
-9.) includes Last 24 for each team member
 
-10.) includes Next 24 for each team member
-
-11.) includes impediments and impediment removal plans for each team member
 
 Kelly:
 Last 24:
