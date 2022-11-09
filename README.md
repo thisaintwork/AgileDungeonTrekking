@@ -157,17 +157,16 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 **2.) Rationale for forecast:** Developers needed to produce working software. They found that 16 user story points would be the minimum number necessary to achieve this. Given individual skills and time constraints, 16 seemed like a reasonable forecast for a first sprint.
 
-3.) Note: Only developers participated in moving items from product backlog into sprint backlog
+**3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
 
 
-4.) *All stories in sprint backlog are less than forecast velocity per sprint.
+**4.) Stories in sprint backlog were greater than half of forecast velocity for the sprint. These stories were split into smaller stories with new estimates.**
 
-5.) *User stories were decomposed into developer tasks. Tasks are listed in sprint backlog.
+**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item.**
 
+**6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
-6.) Sprint Backlog, kanban board URL:
-
-7.) Sprint Burndown Chart, URL: 
+**7.) Sprint Burndown Chart, URL:**
 
 
 ## Daily Scrums 
