@@ -225,32 +225,6 @@ Meeting Agenda:
 -Discuss Development Tools
 
 
-
-Kelly:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-Diana:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-Mike:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-Drew:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
 
 **13.) Evidence of pair/mob programming, URL:**
