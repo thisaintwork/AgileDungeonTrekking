@@ -183,42 +183,38 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 - 10 November 2022, 6 pm- 7pm (Sprint Restrospective/Sprint Review)
 
 
-
 **8.) Documentation for daily scrum on:** 3 November 2022, 6 pm- 7 pm
 - **9.) includes Last 24 for each team member**
 - **10.) includes Next 24 for each team member**
 - **11.) includes impediments and impediment removal plans for each team member**
 
 
-
-
-
 ![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
 
 
 Kelly: 
-Last 24: Reviewed Part 2 Assignment 
-Next 24: Start Backlog
-Impediments: Hungry
-Impediment removal plan:Eat
+- Last 24: Reviewed Part 2 Assignment 
+- Next 24: Start Backlog
+- Impediments: Hungry
+- Impediment removal plan:Eat
 
 Diana: 
-Last 24: Contacted the Professor about Miro, Built Miro board for team scrum, planned meeting agenda, scheduled team meetings, shared a Colab notebook with team for dev
-Next 24: Schedule team meetings for remainder of term, update and manage Miro board, document Scrum in Readme, begin research for programming, share dev research with others
-Impediments: Tired
-Impediment removal plan: Rest at end of sprint, 
+- Last 24: Contacted the Professor about Miro, Built Miro board for team scrum, planned meeting agenda, scheduled team meetings, shared a Colab notebook with team for dev
+- Next 24: Schedule team meetings for remainder of term, update and manage Miro board, document Scrum in Readme, begin research for programming, share dev research with others
+- Impediments: Tired
+- Impediment removal plan: Rest at end of sprint, 
 
 Mike: 
-Last 24: Dev meeting, added dev items into backlog, broke down backlog items
-Next 24: Look at Colab, work on dev setup, work on backlog items, put homework items into GIT, snapshot of Miro, look at examples of projects
-Impediments: None identified
-Impediment removal plan: None identified
+- Last 24: Dev meeting, added dev items into backlog, broke down backlog items
+- Next 24: Look at Colab, work on dev setup, work on backlog items, put homework items into GIT, snapshot of Miro, look at examples of projects
+- Impediments: None identified
+- Impediment removal plan: None identified
 
 Drew: 
-Last 24: Brain storm with Mike and flowchart
-Next 24: Backlog
-Impediments: Not having a sprint backlog
-Impediment removal plan: Create a backlog and agree to it Monday, begin some research for programming over the weekend
+- Last 24: Brain storm with Mike and flowchart
+- Next 24: Backlog
+- Impediments: Not having a sprint backlog
+- Impediment removal plan: Create a backlog and agree to it Monday, begin some research for programming over the weekend
 
 7 November 2022,  5 pm-6pm
 Meeting Agenda: 
