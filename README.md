@@ -45,7 +45,7 @@ However, the Developers are always accountable for:
 
 **Product Description**:  Open source app that allows a Dungeon Master and a group of D&D players to store information about their campaign including character details, maps, non-player character (NPC) details, group loot, session notes, and personal notes. 
 
-**Far Vision**:  Play better together even when you are far away - Improve gameplay and collaboration for teams playing in person or online across multiple campaigns and player characters
+**Far Vision**:  Simplify gamepay and bring D&D into the digital age for a new generation of gamers.
 
 **Near Vision**: Play better together - Improve game play for team members playing as a single team running a campaign
 
