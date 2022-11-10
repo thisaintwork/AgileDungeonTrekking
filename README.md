@@ -159,10 +159,9 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 **3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
 
-
 **4.) Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates.**
 
-**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item.**
+**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.**
 
 **6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
