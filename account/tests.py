@@ -37,3 +37,40 @@ class LoginPageTests(TestCase):
     def test_register_template(self):
         response = self.client.get('/login/')
         self.assertEqual(response.status_code, 200)
+ 
+#Unit test of the account URL
+class LoginPageTests(TestCase):
+    def setup(self):
+        self.client  = Client()
+
+    def test_register_template(self):
+        response = self.client.get('/account/')
+        self.assertEqual(response.status_code, 200)
+
+#Unit test of the Player URL
+class LoginPageTests(TestCase):
+    def setup(self):
+        self.client  = Client()
+
+    def test_register_template(self):
+        response = self.client.get('/player/')
+        self.assertEqual(response.status_code, 200)
+
+
+#Unit test of the empty string URL
+class LoginPageTests(TestCase):
+    def setup(self):
+        self.client  = Client()
+
+    def test_register_template(self):
+        response = self.client.get('')
+        self.assertEqual(response.status_code, 200)
+
+#Unit test of the edit URL
+class LoginPageTests(TestCase):
+    def setup(self):
+        self.client  = Client()
+
+    def test_register_template(self):
+        response = self.client.get('/edit/')
+        self.assertEqual(response.status_code, 200)
