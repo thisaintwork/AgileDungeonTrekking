@@ -168,7 +168,8 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 **6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
 **7.) Sprint Burndown Chart, URL:**
-
+https://miro.com/app/board/uXjVPINglNY=/
+![image](https://user-images.githubusercontent.com/54752285/201235948-837bcb2d-b030-49bf-8e62-adaf6dbd6147.png)
 
 ## Daily Scrums 
 
