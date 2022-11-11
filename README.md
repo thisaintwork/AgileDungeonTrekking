@@ -228,6 +228,8 @@ Meeting Agenda:
 
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
+![image](https://user-images.githubusercontent.com/54752285/201235948-837bcb2d-b030-49bf-8e62-adaf6dbd6147.png)
+https://miro.com/app/board/uXjVPINglNY=/
 
 **13.) Evidence of pair/mob programming, URL:**
 
