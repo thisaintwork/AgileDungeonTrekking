@@ -90,8 +90,8 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 - **Acceptance Criteria:** A website exists. The DMs and players can log into the website. The website had a section for animals. Animals have an image and descriptive text. Players can select and animal to see it's stats. Players can find and choose the right animal for a game scenario in 5 min. 
 
 **2. Title:** Animal stats 
-- **Opening & Details:** As a druid, once I have a set of animals to choose from, I want to know things like health, attacks (magic and melee), resistences, proficiencies etc because I need some idea of what I can do when I change into that animal. When I change into an animal, it replaces my druid character. I can change back to my druid at any time, then I will go back to the same character configuration I was at when I initiated the shape change. For example, if I had 35 of 48 health points available as a druid, when I shaped change I gain the full health points of the animal. When I change back to a druid, I return to 35 of 48 health points. Here is an example description of an animal:
-- ![image](https://user-images.githubusercontent.com/113219148/198417449-67603b92-ee90-4d8b-997d-5522c0e87071.png)
+- **Opening & Details:** As a druid, once I have a set of animals to choose from, I want to know things like health, attacks (magic and melee), resistences, proficiencies etc because I need some idea of what I can do when I change into that animal. When I change into an animal, it replaces my druid character. I can change back to my druid at any time, then I will go back to the same character configuration I was at when I initiated the shape change. For example, if I had 35 of 48 health points available as a druid, when I shaped change I gain the full health points of the animal. When I change back to a druid, I return to 35 of 48 health points. 
+
 - **Acceptance Criteria:** A website exists. The DMs and players can log into the website. The website had a section for animals. Players can select an animal into which to shape change. The app will ask players to confirm their selection. When a player confirms their selection for shape change, the app replaces the player's character sheet with the animal's character sheet with armor class, hit points, speed, stats (strength, dexterity, constitution, intelligence, wisdom, & charisma), skills, attributes, and actions. When a player leaves animal form, they revert back to their original character sheet as it was at the time of their shape change. 
 
 **3. Title:** Take notes 
@@ -237,7 +237,7 @@ Meeting Agenda:
 
 **16.) Working software, URL:**
 
-**17.) Evidence of stakeholder attending spring review, URL:**
+**17.) Evidence of stakeholder attending spring review:** There are three png files created on 2022-11-10.
 (Note: product backlog revised based on feedback received)
 
 ## Sprint Retrospective
