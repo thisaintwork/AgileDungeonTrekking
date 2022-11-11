@@ -37,6 +37,8 @@ However, the Developers are always accountable for:
 - Adapting their plan each day toward the Sprint Goal; and,
 - Holding each other accountable as professionals.
 
+Only the developers pull stories into the sprint backlog.
+
 **Canvas Group Name**: Group 4
 
 **Discord Channel**: https://discord.com/channels/1008812300305702912/1035178215834128395
