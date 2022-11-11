@@ -239,7 +239,7 @@ Meeting Agenda:
 
 **16.) Working software, URL:**
 
-**17.) Evidence of stakeholder attending spring review:** There are three png files created on 2022-11-10.
+**17.) Evidence of stakeholder attending spring review:** Added three screen shots from our Sprint Review to the repo files.
 (Note: product backlog revised based on feedback received)
 
 ## Sprint Retrospective
