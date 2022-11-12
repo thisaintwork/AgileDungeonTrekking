@@ -232,7 +232,7 @@ Meeting Agenda:
 ![image](https://user-images.githubusercontent.com/54752285/201235948-837bcb2d-b030-49bf-8e62-adaf6dbd6147.png)
 https://miro.com/app/board/uXjVPINglNY=/
 
-**13.) Evidence of pair/mob programming, URL:** [Mob Programming image] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_mob_programming.JPG)
+**13.) Evidence of pair/mob programming, URL:** [Mob Programming image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_mob_programming.JPG)
 
 **14.) Evidence of unit tests, URL:** 
 
