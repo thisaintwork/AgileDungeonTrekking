@@ -236,6 +236,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 
 **14.) Evidence of unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
+- [passing tests screenshot] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_testing.JPG)
 
 
 ## Sprint Review
