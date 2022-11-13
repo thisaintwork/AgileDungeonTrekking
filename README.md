@@ -255,6 +255,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 ## Sprint Retrospective
 **18.) Sprint review held on:** November 10, 2022 6:30-7 p.m.
 
-- **action to improve team:** Our team discussed several issues in the Sprint Retrospective. One issue that was discussed is Test- Driven Development. In order to address this issue our team identified the action: “conduct testing earlier and more frequently.” This action was added to our product backlog with acceptance criteria. It is at the top of the backlog and will be pulled into the next sprint.
+- **action to improve team:** Our team discussed several issues in the Sprint Retrospective. One issue that was discussed is Test- Driven Development. In order to address this issue our team identified the action: “conduct testing earlier and more frequently.” This action was added to our product backlog with acceptance criteria. It is at the top of the backlog and will be pulled into the next sprint. 
+See item: [Issue #91](https://github.com/thisaintwork/AgileDungeonTrekking/issues/91)
 
 **19.) Note: All of the PBIs in backlog are true user stories**
