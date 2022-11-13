@@ -235,6 +235,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 **13.) Evidence of pair/mob programming, URL:** [Mob Programming image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_mob_programming.JPG)
 
 **14.) Evidence of unit tests, URL:** 
+- [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
 
 
 ## Sprint Review
@@ -242,7 +243,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 
 **16.) Working software, URL:**
 
-**17.) Evidence of stakeholder attending spring review:** Added three screen shots from our Sprint Review to the repo files.
+**17.) Evidence of stakeholder attending spring review:** [Sprint1 review](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/Sprint%20Review_0.png)
 (Note: product backlog revised based on feedback received)
 
 ## Sprint Retrospective
