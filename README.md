@@ -248,9 +248,9 @@ https://miro.com/app/board/uXjVPINglNY=/
 
 **Feedback**: We demoed the product to our stakeholder and received the following feedback:
 - update user interface so text is easier to read.
-- add/develop art for the site
+- allow user to upload images.
 
-(Note: product backlog was revised based on feedback received)
+(Note: product backlog was revised based on feedback received.) See item: [Issue #90](https://github.com/thisaintwork/AgileDungeonTrekking/issues/90)
 
 ## Sprint Retrospective
 **18.) Sprint review held on:** November 10, 2022 6:30-7 p.m.
