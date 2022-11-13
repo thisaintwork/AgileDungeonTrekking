@@ -250,12 +250,15 @@ https://miro.com/app/board/uXjVPINglNY=/
 - update user interface so text is easier to read.
 - allow user to upload images.
 
-(Note: product backlog was revised based on feedback received.) See item: [Issue #90](https://github.com/thisaintwork/AgileDungeonTrekking/issues/90)
+(Note: product backlog was revised based on feedback received.) 
+
+For Sprint Review feedback, See item: [Issue #90](https://github.com/thisaintwork/AgileDungeonTrekking/issues/90)
 
 ## Sprint Retrospective
 **18.) Sprint review held on:** November 10, 2022 6:30-7 p.m.
 
-- **action to improve team:** Our team discussed several issues in the Sprint Retrospective. One issue that was discussed is Test- Driven Development. In order to address this issue our team identified the action: “conduct testing earlier and more frequently.” This action was added to our product backlog with acceptance criteria. It is at the top of the backlog and will be pulled into the next sprint. 
-See item: [Issue #91](https://github.com/thisaintwork/AgileDungeonTrekking/issues/91)
+- **action to improve team:** Our team discussed several issues in the Sprint Retrospective. One issue that was discussed is Test- Driven Development. In order to address this issue our team identified the action: “conduct testing earlier and more frequently.” This action was added to our product backlog with acceptance criteria. It is at the top of the backlog and will be pulled into the next sprint.
+
+For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisaintwork/AgileDungeonTrekking/issues/91)
 
 **19.) Note: All of the PBIs in backlog are true user stories**
