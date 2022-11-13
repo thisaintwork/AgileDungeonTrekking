@@ -245,13 +245,14 @@ https://miro.com/app/board/uXjVPINglNY=/
 **16.) Working software, URL:**
 
 **17.) Evidence of stakeholder attending spring review:** [Sprint1 review](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/Sprint%20Review_0.png)
-(Note: product backlog revised based on feedback received)
+**Feedback**: We demoed the product to our stakeholder and received the following feedback:
+- update user interface so text is easier to read.
+- add/develop art for the site
+(Note: product backlog was revised based on feedback received)
 
 ## Sprint Retrospective
 **18.) Sprint review held on:** November 10, 2022 6:30-7 p.m.
 
-- **action to improve team:**
-
-- **action plan was made into PBI and placed at top of product backlog:**
+- **action to improve team:** Our team discussed several issues in the Sprint Retrospective. One issue that was discussed is Test- Driven Development. In order to address this issue our team identified the action: “conduct testing earlier and more frequently.” This action was added to our product backlog with acceptance criteria.It is at the top of the backlog and will be pulled into the next sprint.
 
 **19.) Note: All of the PBIs in backlog are true user stories**
