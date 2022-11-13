@@ -249,6 +249,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 **Feedback**: We demoed the product to our stakeholder and received the following feedback:
 - update user interface so text is easier to read.
 - add/develop art for the site
+
 (Note: product backlog was revised based on feedback received)
 
 ## Sprint Retrospective
