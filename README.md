@@ -173,7 +173,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 
 ## Daily Scrums 
 
-**Daily Scrum held on:**
+**Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
 - 3 November 2022,  6 pm- 7 pm
 
@@ -184,6 +184,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 - 9 November 2022,  6 pm- 7 pm
 
 - 10 November 2022, 6 pm- 7pm (Sprint Restrospective/Sprint Review)
+
 
 
 **8.) Documentation for daily scrum on:** 3 November 2022, 6 pm- 7 pm
@@ -220,14 +221,32 @@ Drew:
 - Impediments: Not having a sprint backlog
 - Impediment removal plan: Create a backlog and agree to it Monday, begin some research for programming over the weekend
 
-7 November 2022,  5 pm-6pm
-Meeting Agenda: 
--Daily Scrum
--Review/Groom Backlog
--Task Out Development Items for Sprint 1
--Agree to Development Timeline
--Discuss Development Tools
+Collected Notes from 9 November Daily Scrum
+![image](https://user-images.githubusercontent.com/54752285/201750574-14dff8ba-8ada-43e7-b2a4-ad61548bd581.png)
 
+Kelly: 
+- Last 24: Broke out user stories
+- Next 24: Added user stories
+- Impediments: Next steps
+- Impediment removal plan:Discuss a plan for next steps
+
+Diana: 
+- Last 24: Built Django landing page in Pycharm, page includes password and login, commit code to Git, plan agenda, update scrum board, work on burndown chart, update Miro, document source code for Django landing page/environement and share with team 
+- Next 24: Unit test research, unit testing, resources for subpages
+- Impediments: Tired
+- Impediment removal plan: Rest at end of sprint
+
+Mike: 
+- Last 24: Put technical tasks in kanban into Miro, make stories smaller
+- Next 24: Review sprint stories, Digital Ocean signup, PBI sizes in title
+- Impediments: Blocked on how to set up dev environment
+- Impediment removal plan: Diana shares documentation for setup of environment and helped with questions
+
+Drew: 
+- Last 24: Researched Django and webhosting, broke down some of the stories, and changed the scheme in the backlog
+- Next 24: Unit test setup, PBI estimates
+- Impediments: Could not set up Digital Ocean since lacked needed GIT access
+- Impediment removal plan: Mike has needed GIT access and will work on Digital Ocean
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
 ![image](https://user-images.githubusercontent.com/54752285/201235948-837bcb2d-b030-49bf-8e62-adaf6dbd6147.png)
