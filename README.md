@@ -239,7 +239,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
 - [passing tests screenshot] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_testing.JPG)
 
-We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/orgs/thisaintwork/projects/3/views/2.
+We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
 
 
 
