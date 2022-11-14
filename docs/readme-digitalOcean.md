@@ -35,10 +35,14 @@ Use these SFTP credentials to upload files with FileZilla/WinSCP/rsync:
     Pass: XXXX
 
 Django is configured to use Postgres as its database. Use the following
+
+In a web browser, you can view:
 credentials to manage the database:
     Database: django
     User:     django
     Pass:     XXXX
+
+In a web browser, you can view:
 
 In a web browser, you can view:
  * The Django 1-Click Quickstart guide: https://do.co/3bY3b67#start
