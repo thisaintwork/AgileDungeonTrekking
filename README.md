@@ -270,6 +270,14 @@ For Sprint Review feedback, See item: [Issue #90](https://github.com/thisaintwor
 
 ## Sprint Retrospective
 **18.) Sprint review held on:** November 10, 2022 6:30-7 p.m.
+Team Retrospective | Date: 10/31/22- Close out on PI and Start S1
+LIKED
+What was good? We all came together as a team   One of us, in this case Drew did a review of what we did.   Diana started taking on the role of leading meetings and rounding us up   We did a really good job. This was our first sprint.   We figured out a way to coordinate who worked on what items   The checkins were helpful for Diana (and everyone else) for knowing how we can help each other and what we need to add to the agenda.  	LEARNED
+What did the team learn? 
+ How we work well   We should break down the stories sooner and as a team.   we are learning that we can ask each other for help on things that each brings to the table  
+LACKED
+What did the team lack?  Time. With our outside lives and jobs it never felt like we had enough time   Lacked experience with the tools that we are using. (Have since learned at least the basics)   We were learning as we went. There are things that I would have liked to have done better.  It will get better but we did not understand some of the tools and the agile techniques  when we started this sprint  	LONGED FOR
+What did the team long for? Better understanding of BDD   for Mike to talk less   Better undrestanding of TDD  
 
 - **action to improve team:** Our team discussed several issues in the Sprint Retrospective. One issue that was discussed is Test-Driven Development. In order to address this issue our team identified the action: “conduct testing earlier and more frequently.” This action was added to our product backlog with acceptance criteria. It is at the top of the backlog and will be pulled into the next sprint.
 
