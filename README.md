@@ -194,6 +194,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 
 ![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
 
+Collected notes from daily scrum discussion on 3 November 2022-
 
 Kelly: 
 - Last 24: Reviewed Part 2 Assignment 
@@ -237,6 +238,10 @@ https://miro.com/app/board/uXjVPINglNY=/
 **14.) Evidence of unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
 - [passing tests screenshot] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_testing.JPG)
+
+We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/orgs/thisaintwork/projects/3/views/2.
+
+
 
 
 ## Sprint Review
