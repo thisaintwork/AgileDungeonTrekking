@@ -247,7 +247,7 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 ## Sprint Review
 **15.) Sprint review held on:** November 10, 2022 6-6:30 p.m.
 
-**16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). At this time, we have further development to complete in Digital Ocean to sync up completely between GIT and our public space. However, we welcome you to visit our login page at the URL above. We also invite you to view the pages as captured below by localling running the code hosted here in GIT: ![image](https://user-images.githubusercontent.com/54752285/201746844-d711ba5c-da31-478d-9802-c33ef464fa26.png)
+**16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). At this time, we have further development to complete in Digital Ocean to sync up completely between GIT and our public space. However, we welcome you to visit our login page at the URL above. We also invite you to view the pages as captured below by locally running the code hosted here in GIT: ![image](https://user-images.githubusercontent.com/54752285/201746844-d711ba5c-da31-478d-9802-c33ef464fa26.png)
 The image for the landing page was built by Dall-e
 ![image](https://user-images.githubusercontent.com/54752285/201747163-b5d2179c-3949-4fe0-b677-deea1312d80c.png)
 
