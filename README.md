@@ -312,3 +312,28 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 ![image](https://user-images.githubusercontent.com/54752285/201748970-2792b17f-558b-42e2-96c5-9004c64d385c.png)
 
 **19.) Note: All of the PBIs in backlog are true user stories**
+
+# Project Part 3: Second Sprint
+
+Notes from team scrum on 15 Nov broken down by person:
+Diana
+Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages
+Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue
+Blockers: 
+
+Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation. Mike if something here doesn’t work for you, just let us know!
+Last 24:  Working on an issue in Digital Ocean; put homework in backlog
+Next 24: Fix issue in digital ocean; 
+Blockers:
+
+Drew
+Last 24: researched Django, 
+Next 24: velocity decided, estimate PBIs
+Blockers:
+
+Kelly
+Last 24: Started HW3 backlog
+Next 24: Finish HW3 backlog, Product backlog grooming
+Blockers:
+![image](https://user-images.githubusercontent.com/54752285/202337028-d476ab4c-3906-4760-9adb-1dbe86d17304.png)
+
