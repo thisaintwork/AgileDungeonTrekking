@@ -317,7 +317,7 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 
 **1.) Forecast for story points per sprint:** 12
 
-**2.) Rationale for forecast:** Developers needed to produce working software. They found that 12 user story points would be the minimum number necessary to achieve this. Given individual skills and time constraints, 12 seemed like a reasonable forecast for a first sprint.
+**2.) Rationale for forecast:** Yesterday's weather.
 
 **3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
 
@@ -333,7 +333,7 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 
 **Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
-**8.) Documentation for daily scrum on:** 3 November 2022, 6 pm- 7 pm
+**8.) Documentation for daily scrum on:** 
 - **9.) includes Last 24 for each team member**
 - **10.) includes Next 24 for each team member**
 - **11.) includes impediments and impediment removal plans for each team member**
@@ -367,14 +367,13 @@ Blockers:
 
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
-![image](https://user-images.githubusercontent.com/54752285/201235948-837bcb2d-b030-49bf-8e62-adaf6dbd6147.png)
 https://miro.com/app/board/uXjVPINglNY=/
 
-**13.) Evidence of pair/mob programming, URL:** [Mob Programming image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_mob_programming.JPG)
+**13.) Evidence of pair/mob programming, URL:** 
 
 **14.) Evidence of unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
-- [passing tests screenshot] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_testing.JPG)
+- [passing tests screenshot]
 
 We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
 
@@ -391,6 +390,11 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 (Note: product backlog was revised based on feedback received.) 
 
 For Sprint Review feedback, See item: 
+
+## CI/CD
+**18.) Evidence of Continuous Integration:
+
+**19.) Evidence of Continous Delivery:
 
 
 ## Sprint Retrospective
