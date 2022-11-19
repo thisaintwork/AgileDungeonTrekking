@@ -315,6 +315,31 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 
 # Project Part 3: Second Sprint
 
+**1.) Forecast for story points per sprint:** 12
+
+**2.) Rationale for forecast:** Developers needed to produce working software. They found that 12 user story points would be the minimum number necessary to achieve this. Given individual skills and time constraints, 12 seemed like a reasonable forecast for a first sprint.
+
+**3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
+
+**4.) Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates.**
+
+**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.**
+
+**6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
+
+**7.) Sprint Burndown Chart, URL:**
+
+## Daily Scrums 
+
+**Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
+
+**8.) Documentation for daily scrum on:** 3 November 2022, 6 pm- 7 pm
+- **9.) includes Last 24 for each team member**
+- **10.) includes Next 24 for each team member**
+- **11.) includes impediments and impediment removal plans for each team member**
+
+
+
 Notes from team scrum on 15 Nov broken down by person:
 Diana
 Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages
@@ -336,4 +361,64 @@ Last 24: Started HW3 backlog
 Next 24: Finish HW3 backlog, Product backlog grooming
 Blockers:
 ![image](https://user-images.githubusercontent.com/54752285/202337028-d476ab4c-3906-4760-9adb-1dbe86d17304.png)
+
+
+
+
+
+**12.) Evidence of updating sprint task board and burndown chart, URL:**
+![image](https://user-images.githubusercontent.com/54752285/201235948-837bcb2d-b030-49bf-8e62-adaf6dbd6147.png)
+https://miro.com/app/board/uXjVPINglNY=/
+
+**13.) Evidence of pair/mob programming, URL:** [Mob Programming image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_mob_programming.JPG)
+
+**14.) Evidence of unit tests, URL:** 
+- [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
+- [passing tests screenshot] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/sprint1_testing.JPG)
+
+We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
+
+
+
+## Sprint Review
+**15.) Sprint review held on:** 
+
+**16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online)
+
+
+**17.) Evidence of stakeholder attending Sprint Review:** [
+
+(Note: product backlog was revised based on feedback received.) 
+
+For Sprint Review feedback, See item: 
+
+
+## Sprint Retrospective
+**18.) Sprint retrospective held on:** 
+
+Team Retrospective | Date: 
+
+LIKED
+
+LEARNED
+
+
+LACKED
+
+
+LONGED FOR
+
+
+
+- **action to improve team:**
+
+For Sprint Retrospective action, see item: 
+
+**19.) Note: All of the PBIs in backlog are true user stories**
+
+
+
+
+
+
 
