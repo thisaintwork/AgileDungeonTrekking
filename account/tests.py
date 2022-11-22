@@ -26,7 +26,7 @@ class CreatUserTests(TestCase):
 
 
     def test_create_user(self):
-        """ Test creating a user is successful """
+        """ Test creating a user is successful    """
         self.assertEqual(self.user.username, 'XXX')
         self.assertEqual(self.user.email, 'Bill@email.com')
         self.assertTrue(self.user.is_active)
