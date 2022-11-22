@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-dkdd7%0@=ct%au!z4@)-8^7qtyd$$3w&2lz49!)z01rl)qyx^^
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['209.97.148.138','www.agiledungeontrekking.online','agiledungeontrekking.online', 'locahost', '127.0.0.1']
-#ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['209.97.148.138','www.agiledungeontrekking.online','agiledungeontrekking.online', 'locahost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
@@ -120,7 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = "/static/"
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
