@@ -1,1 +1,1 @@
-dnd-character
+dnd-character >= 20.0
