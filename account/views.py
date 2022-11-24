@@ -6,6 +6,7 @@ from django.contrib import messages
 from .forms import LoginForm, UserRegistrationForm, \
                    UserEditForm, ProfileEditForm
 from .models import Profile
+from django.core.mail import send_mail, BadHeaderError
 
 
 def user_login(request):
@@ -49,6 +50,15 @@ def register(request):
             new_user.save()
             # Create the user profile
             Profile.objects.create(user=new_user)
+
+            subject = "Welcome to Agile Dungeon Trekking!"
+            from_email = new_user.email
+            message = "You are now registered."
+            try:
+                send_mail(subject, message, from_email, ["dungeon_master@adt.com"])
+            except BadHeaderError:
+                pass
+
             return render(request,
                           'account/register_done.html',
                           {'new_user': new_user})

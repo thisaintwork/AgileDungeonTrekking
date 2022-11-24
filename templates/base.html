@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>{% block title %}{% endblock %}</title>
-  <link href="{% static "css/player.css" %}" rel="stylesheet">
+  <link href="{% static "css/base.css" %}" rel="stylesheet">
 </head>
 <body>
   <div id="header">
@@ -13,14 +13,11 @@
         <li {% if section == "dashboard" %}class="selected"{% endif %}>
           <a href="{% url "dashboard" %}">My dashboard</a>
         </li>
-        <li {% if section == "Players" %}class="selected"{% endif %}>
-          <a href="player">Players</a>
+        <li {% if section == "Characters" %}class="selected"{% endif %}>
+          <a href="characters">Players</a>
         </li>
-        <li {% if section == "Campaigns" %}class="selected"{% endif %}>
-          <a href="#">Campaigns</a>
-        </li>
-        <li {% if section == "Monster Manual" %}class="selected"{% endif %}>
-          <a href="#">Monster Manual</a>
+        <li {% if section == "Creatures" %}class="selected"{% endif %}>
+          <a href="creatures">Creatures</a>
         </li>
       </ul>
     {% endif %}
