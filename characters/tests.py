@@ -20,7 +20,7 @@ class CharactersPageTests(TestCase):
         """ Testing character page is accessible """
         response = self.client.get('/characters/')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.status_code, 200)
+        self.assertNotEqual(response.status_code, 400)
         self.assertTemplateUsed(response, 'characters/characters.html')
 
     def test_character_management(self):
