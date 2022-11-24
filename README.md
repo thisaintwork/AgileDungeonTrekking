@@ -37,11 +37,9 @@ However, the Developers are always accountable for:
 - Adapting their plan each day toward the Sprint Goal; and,
 - Holding each other accountable as professionals.
 
-<<<<<<< Updated upstream
 Only the developers pull stories into the sprint backlog.
 
 =======
->>>>>>> Stashed changes
 **Canvas Group Name**: Group 4
 
 **Discord Channel**: https://discord.com/channels/1008812300305702912/1035178215834128395
@@ -50,11 +48,9 @@ Only the developers pull stories into the sprint backlog.
 
 **Product Description**:  Open source app that allows a Dungeon Master and a group of D&D players to store information about their campaign including character details, maps, non-player character (NPC) details, group loot, session notes, and personal notes. 
 
-<<<<<<< Updated upstream
 **Far Vision**:  Simplify gamepay and bring D&D into the digital age for a new generation of gamers.
 =======
 **Far Vision**:  Play better together even when you are far away - Improve gameplay and collaboration for teams playing in person or online across multiple campaigns and player characters
->>>>>>> Stashed changes
 
 **Near Vision**: Play better together - Improve game play for team members playing as a single team running a campaign
 
@@ -99,13 +95,13 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 - **Acceptance Criteria:** A website exists. The DMs and players can log into the website. The website had a section for animals. Animals have an image and descriptive text. Players can select and animal to see it's stats. Players can find and choose the right animal for a game scenario in 5 min. 
 
 **2. Title:** Animal stats 
-<<<<<<< Updated upstream
+
 - **Opening & Details:** As a druid, once I have a set of animals to choose from, I want to know things like health, attacks (magic and melee), resistences, proficiencies etc because I need some idea of what I can do when I change into that animal. When I change into an animal, it replaces my druid character. I can change back to my druid at any time, then I will go back to the same character configuration I was at when I initiated the shape change. For example, if I had 35 of 48 health points available as a druid, when I shaped change I gain the full health points of the animal. When I change back to a druid, I return to 35 of 48 health points. 
 
 =======
 - **Opening & Details:** As a druid, once I have a set of animals to choose from, I want to know things like health, attacks (magic and melee), resistences, proficiencies etc because I need some idea of what I can do when I change into that animal. When I change into an animal, it replaces my druid character. I can change back to my druid at any time, then I will go back to the same character configuration I was at when I initiated the shape change. For example, if I had 35 of 48 health points available as a druid, when I shaped change I gain the full health points of the animal. When I change back to a druid, I return to 35 of 48 health points. Here is an example description of an animal:
 - ![image](https://user-images.githubusercontent.com/113219148/198417449-67603b92-ee90-4d8b-997d-5522c0e87071.png)
->>>>>>> Stashed changes
+
 - **Acceptance Criteria:** A website exists. The DMs and players can log into the website. The website had a section for animals. Players can select an animal into which to shape change. The app will ask players to confirm their selection. When a player confirms their selection for shape change, the app replaces the player's character sheet with the animal's character sheet with armor class, hit points, speed, stats (strength, dexterity, constitution, intelligence, wisdom, & charisma), skills, attributes, and actions. When a player leaves animal form, they revert back to their original character sheet as it was at the time of their shape change. 
 
 **3. Title:** Take notes 
@@ -167,7 +163,6 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 ## Sprint Planning:
 
-<<<<<<< Updated upstream
 **1.) Forecast for story points per sprint:** 12
 
 **2.) Rationale for forecast:** Developers needed to produce working software. They found that 12 user story points would be the minimum number necessary to achieve this. Given individual skills and time constraints, 12 seemed like a reasonable forecast for a first sprint.
@@ -563,4 +558,3 @@ action to improve team:
 action plan was made into PBI and placed at top of product backlog:
 
 19.) Note: All of the PBIs in backlog are true user stories
->>>>>>> Stashed changes
