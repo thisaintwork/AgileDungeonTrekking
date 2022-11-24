@@ -4,11 +4,7 @@ from django.urls import reverse
 import re
 
 
-<<<<<<< Updated upstream
-class CreatUserTests(TestCase):
-=======
 class CreateUserTests(TestCase):
->>>>>>> Stashed changes
     """ Unit testing Custom User model """
     def setUp(self):
         User = get_user_model()
@@ -30,11 +26,7 @@ class CreateUserTests(TestCase):
 
 
     def test_create_user(self):
-<<<<<<< Updated upstream
-        """ Test creating a user is successful    """
-=======
         """ Test creating a user is successful """
->>>>>>> Stashed changes
         self.assertEqual(self.user.username, 'Bill')
         self.assertEqual(self.user.email, 'Bill@email.com')
         self.assertTrue(self.user.is_active)
@@ -227,10 +219,6 @@ class EditPageTests(TestCase):
         self.client = Client()
 
    # def test_register_template(self):
-<<<<<<< Updated upstream
    #     response = self.client.get('/edit/')
    #     self.assertEqual(response.status_code, 200)
-=======
-    #    response = self.client.get('/edit/')
-     #   self.assertEqual(response.status_code, 200)
->>>>>>> Stashed changes
+

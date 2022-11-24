@@ -3,7 +3,8 @@ from django.http import HttpResponse
 #from .models import characters
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the players page.")
+    return render(request,
+                  'characters/characters.html')
 
 # def create(request):
 #     if request.method == 'GET':

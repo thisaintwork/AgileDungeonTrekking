@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Characters</title>
-</head>
-<body>
+{%  extends 'base.html' %}
+{% load static %}
 
-</body>
-</html>
+{% block title %}Characters{%  endblock title %}
+{% block content %}
+    {%  block extrahead %}
+    <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
+    {% endblock extrahead %}
+<h1>Manage Characters</h1>
+{% endblock content %}
