@@ -37,8 +37,11 @@ However, the Developers are always accountable for:
 - Adapting their plan each day toward the Sprint Goal; and,
 - Holding each other accountable as professionals.
 
+<<<<<<< Updated upstream
 Only the developers pull stories into the sprint backlog.
 
+=======
+>>>>>>> Stashed changes
 **Canvas Group Name**: Group 4
 
 **Discord Channel**: https://discord.com/channels/1008812300305702912/1035178215834128395
@@ -47,7 +50,11 @@ Only the developers pull stories into the sprint backlog.
 
 **Product Description**:  Open source app that allows a Dungeon Master and a group of D&D players to store information about their campaign including character details, maps, non-player character (NPC) details, group loot, session notes, and personal notes. 
 
+<<<<<<< Updated upstream
 **Far Vision**:  Simplify gamepay and bring D&D into the digital age for a new generation of gamers.
+=======
+**Far Vision**:  Play better together even when you are far away - Improve gameplay and collaboration for teams playing in person or online across multiple campaigns and player characters
+>>>>>>> Stashed changes
 
 **Near Vision**: Play better together - Improve game play for team members playing as a single team running a campaign
 
@@ -92,8 +99,13 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 - **Acceptance Criteria:** A website exists. The DMs and players can log into the website. The website had a section for animals. Animals have an image and descriptive text. Players can select and animal to see it's stats. Players can find and choose the right animal for a game scenario in 5 min. 
 
 **2. Title:** Animal stats 
+<<<<<<< Updated upstream
 - **Opening & Details:** As a druid, once I have a set of animals to choose from, I want to know things like health, attacks (magic and melee), resistences, proficiencies etc because I need some idea of what I can do when I change into that animal. When I change into an animal, it replaces my druid character. I can change back to my druid at any time, then I will go back to the same character configuration I was at when I initiated the shape change. For example, if I had 35 of 48 health points available as a druid, when I shaped change I gain the full health points of the animal. When I change back to a druid, I return to 35 of 48 health points. 
 
+=======
+- **Opening & Details:** As a druid, once I have a set of animals to choose from, I want to know things like health, attacks (magic and melee), resistences, proficiencies etc because I need some idea of what I can do when I change into that animal. When I change into an animal, it replaces my druid character. I can change back to my druid at any time, then I will go back to the same character configuration I was at when I initiated the shape change. For example, if I had 35 of 48 health points available as a druid, when I shaped change I gain the full health points of the animal. When I change back to a druid, I return to 35 of 48 health points. Here is an example description of an animal:
+- ![image](https://user-images.githubusercontent.com/113219148/198417449-67603b92-ee90-4d8b-997d-5522c0e87071.png)
+>>>>>>> Stashed changes
 - **Acceptance Criteria:** A website exists. The DMs and players can log into the website. The website had a section for animals. Players can select an animal into which to shape change. The app will ask players to confirm their selection. When a player confirms their selection for shape change, the app replaces the player's character sheet with the animal's character sheet with armor class, hit points, speed, stats (strength, dexterity, constitution, intelligence, wisdom, & charisma), skills, attributes, and actions. When a player leaves animal form, they revert back to their original character sheet as it was at the time of their shape change. 
 
 **3. Title:** Take notes 
@@ -155,6 +167,7 @@ As the product owner, I ordered the baseline based on our interview with Lexi Pl
 
 ## Sprint Planning:
 
+<<<<<<< Updated upstream
 **1.) Forecast for story points per sprint:** 12
 
 **2.) Rationale for forecast:** Developers needed to produce working software. They found that 12 user story points would be the minimum number necessary to achieve this. Given individual skills and time constraints, 12 seemed like a reasonable forecast for a first sprint.
@@ -426,3 +439,128 @@ For Sprint Retrospective action, see item:
 
 
 
+=======
+1.) Forecast for story points per sprint:
+
+2.) Rationale for forecast:
+
+3.) Note: Only developers participated in moving items from product backlog into sprint backlog
+
+
+4.) *All stories in sprint backlog are less than forecast velocity per sprint.
+
+5.) *User stories were decomposed into developer tasks. Tasks are listed in sprint backlog.
+
+
+6.) Sprint Backlog, kanban board URL:
+
+7.) Sprint Burndown Chart, URL: 
+
+
+## Daily Scrums 
+
+3 November 2022,  6 pm- 7 pm
+
+7 November 2022,  5 pm- 6 pm
+
+8 November 2022,  6 pm- 7 pm
+
+9 November 2022,  6 pm- 7 pm
+
+10 November 2022, 6 pm- 7pm (Sprint Restrospective/Sprint Review)
+
+
+
+8.) Documentation for daily scrum on .....
+3 November 2022, 6 pm- 7 pm
+
+![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
+
+
+Kelly: 
+Last 24: Reviewed Part 2 Assignment 
+Next 24: Start Backlog
+Impediments: Hungry
+Impediment removal plan:Eat
+
+Diana: 
+Last 24: Contacted the Professor about Miro, Built Miro board for team scrum, planned meeting agenda, scheduled team meetings, shared a Colab notebook with team for dev
+Next 24: Schedule team meetings for remainder of term, update and manage Miro board, document Scrum in Readme, begin research for programming, share dev research with others
+Impediments: Tired
+Impediment removal plan: Rest at end of sprint, 
+
+Mike: 
+Last 24: Dev meeting, added dev items into backlog, broke down backlog items
+Next 24: Look at Colab, work on dev setup, work on backlog items, put homework items into GIT, snapshot of Miro, look at examples of projects
+Impediments: None identified
+Impediment removal plan: None identified
+
+Drew: 
+Last 24: Brain storm with Mike and flowchart
+Next 24: Backlog
+Impediments: Not having a sprint backlog
+Impediment removal plan: Create a backlog and agree to it Monday, begin some research for programming over the weekend
+
+7 November 2022,  5 pm-6pm
+Meeting Agenda: 
+-Daily Scrum
+-Review/Groom Backlog
+-Task Out Development Items for Sprint 1
+-Agree to Development Timeline
+-Discuss Development Tools
+
+9.) includes Last 24 for each team member
+
+10.) includes Next 24 for each team member
+
+11.) includes impediments and impediment removal plans for each team member
+
+Kelly:
+Last 24:
+Next 24:
+Impediments:
+Impediment removal plan:
+
+Diana:
+Last 24:
+Next 24:
+Impediments:
+Impediment removal plan:
+
+Mike:
+Last 24:
+Next 24:
+Impediments:
+Impediment removal plan:
+
+Drew:
+Last 24:
+Next 24:
+Impediments:
+Impediment removal plan:
+
+
+12.) Evidence of updating sprint task board and burndown chart, URL:
+
+13.) Evidence of pair/mob programming, URL:
+
+14.) Evidence of unit tests, URL: 
+
+
+## Sprint Review
+15.) Sprint review held on: November 10, 2022 6-6:30 p.m.
+
+16.) Working software, URL:
+
+17.) Evidence of stakeholder attending spring review, URL:
+(product backlog revised based on feedback received)
+
+## Sprint Retrospective
+18.) Sprint review held on: November 10, 2022 6:30-7 p.m.
+
+action to improve team:
+
+action plan was made into PBI and placed at top of product backlog:
+
+19.) Note: All of the PBIs in backlog are true user stories
+>>>>>>> Stashed changes
