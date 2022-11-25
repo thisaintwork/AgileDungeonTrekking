@@ -1,0 +1,44 @@
+{%  extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    {%  if category %}{{ category.name }} {% else %}Manage Characters{% endif %}
+{%  endblock title %}
+
+{% block content %}
+    {%  block extrahead %}
+        <link href="{% static "css/characters/base.css" %}" rel="stylesheet">
+        <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
+    {% endblock extrahead %}
+  <div id="sidebar">
+    <h3>Categories</h3>
+    <ul>
+      <li {% if not category %}class="selected"{% endif %}>
+        <a href="{% url "characters" %}">All</a>
+      </li>
+      {% for c in categories %}
+        <li {% if category.slug == c.slug %}class="selected"{% endif %}>
+          <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div id="main" class="character-list">
+    <h1>{% if category %}{{ category.name }}{% else %}Characters{% endif %}</h1>
+      <h2>
+          <form action="{% url 'character_add' %}" method="post">
+              <button type="button" class="btn btn-primary">Create Character</button>
+          </form>
+      </h2>
+
+      {% for character in characters %}
+      <!-- <div class="item"> -->
+        <div class="container-sm">
+        <figure class="figure">
+            <img width="200" height= "200" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/characters/no_image.png" %}{% endif %}" class="figure-img img-fluid rounded" >
+            <figcaption class="figure-caption"><a href="{{ character.get_absolute_url }}">{{ character.name }}</a><br>Class: {{ character.character_class }} Level: {{ character.level}} XP: {{ character.experience_points }}</figcaption>
+            </figure>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock content %}

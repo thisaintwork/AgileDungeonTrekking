@@ -1,0 +1,21 @@
+{%  extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ character.name }}{%  endblock title %}
+{% block content %}
+    {%  block extrahead %}
+        <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
+    {% endblock extrahead %}
+    <div class="character-detail">
+        <img src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/character/no_image.png" %}{% endif %}">
+        <h1>{{ character.name }}</h1>
+        <h2><a href="{{ character.category.get_absolute_url }}">{{ character.category }}</a></h2>
+
+        <form action="{% url 'character_edit' character.id %}" method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" value="Edit">
+        </form>
+        {{ product.description|linebreaks }}
+    </div>
+{% endblock content %}

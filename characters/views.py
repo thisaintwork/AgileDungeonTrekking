@@ -1,20 +1,42 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
-#from .models import characters
+from .models import Category, AdtCharacter
+from .forms import CharacterAddForm
 
-def index(request):
+def character_list(request, category_slug=None):
+    category = None
+    categories = Category.objects.all()
+    characters = AdtCharacter.objects.filter(created_by=request.user.get_username())
+    if category_slug:
+        category = get_object_or_404(Category, slug=category_slug)
+        characters = characters.filter(category=category)
     return render(request,
-                  'characters/characters.html')
+                  'characters/list.html',
+                  {'category': category,
+                   'categories': categories,
+                   'characters': characters})
 
-# def create(request):
-#     if request.method == 'GET':
-#         player_form = Players(request.GET)
-#
-#         return render(request,
-#                     'player/base.html',
-#                     {'player_list': player_form})
-#     else:
-#         player_form = Players()
-#     return render(request,
-#                   'player/base.html',
-#                   {'player_list': player_form})
+def character_detail(request, id, slug):
+    character = get_object_or_404(AdtCharacter,
+                                  id=id,
+                                  slug=slug)
+    return render(request,
+                  'characters/detail.html',
+                  {'character': character})
+
+
+def character_edit(request, id):
+    character = get_object_or_404(AdtCharacter,
+                                  id=id)
+    context = {}
+    context['form'] = CharacterAddForm()
+    return render(request,
+                  'characters/edit.html', context,
+                  {'character': character})
+
+def character_add(request):
+    context = {}
+    context['form'] = CharacterAddForm()
+    return render(request,
+                  context,
+                  'characters/add.html')

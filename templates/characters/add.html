@@ -1,0 +1,14 @@
+{%  extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ character.name }}{%  endblock title %}
+{% block content %}
+    {%  block extrahead %}
+        <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
+    {% endblock extrahead %}
+        <form action="" method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" value="Create Character">
+        </form>
+{% endblock content %}

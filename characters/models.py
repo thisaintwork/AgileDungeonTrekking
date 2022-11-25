@@ -1,85 +1,73 @@
 import uuid
 
 from django.db import models
-from dnd_character import Character
-from dnd_character.classes import CLASSES
-from dnd_character.experience import experience_at_level
 from django.urls import reverse
 from django.utils import timezone
+from .generate import GenerateCharacter
 
-m_names = ['Vindicate',
-'Ironside',
-'Torpedo',
-'Bionic',
-'Dynamo',
-'Mr. Miraculous',
-'Tornado',
-'Metal Man',
-'Jawbreaker',
-'Barrage',
-'Amplify',
-'Bonfire',
-'Monsoon',
-'Urchin',
-'Firefly']
+class Category(models.Model):
+    """ Class for filtering a player's list of characters """
+    name = models.CharField(max_length=200,
+                            db_index=True)
+    slug = models.SlugField(max_length=200,
+                            unique=True)
 
-f_name = ['Ember',
-'Twilight',
-'Tsunami',
-'Miss Mantis',
-'Wildfire',
-'Radiance',
-'Wondrous',
-'Starlight',
-'Black Magnolia',
-'Ivory Wing',
-'Coral',
-'Waterfall',
-'Tempest',
-'Lotus']
-
-def CreateCharacter(charClass):
-    genChar = Character(
-        name="Thor Odinson",
-        age="34",
-        level=1,
-        gender="Male",
-        description="Looks like a pirate angel",
-        biography="Born on Asgard, God of Thunder",
-        classs=CLASSES["fighter"],
-    )
-
-
-class AdtCharacter(models.Model):
-    id = models.UUIDField(primary_key=True,
-                          default=uuid.uuid4,
-                          editable=False)
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    age = models.FloatField()
-    charisma = models.IntegerField()
-    constitution = models.IntegerField()
-    dexterity = models.IntegerField()
-    intelligence = models.IntegerField()
-    strength = models.IntegerField()
-    wisdom = models.IntegerField()
-    level = models.PositiveIntegerField()
-    character_class = models.CharField(max_length=100)
-    race = models.CharField(max_length=50)
-    alignment = models.CharField(max_length=100)
-    platinum = models.IntegerField()
-    gold = models.IntegerField()
-    silver = models.IntegerField()
-    copper = models.IntegerField()
-    created_by = models.CharField(max_length=100, default='unknown')
-    created_date = models.DateTimeField(default=timezone.now)
+    class Meta:
+        ordering = ('name',)
+        verbose_name = 'category'
+        verbose_name_plural = 'categories'
 
     def __str__(self):
-        return self.first_name + " " + self.last_name
+        return self.name
+    def get_absolute_url(self):
+        return reverse('characters_by_category', args=[self.slug])
+
+class AdtCharacter(models.Model):
+
+    category = models.ForeignKey(Category,
+                                 related_name='character_class',
+                                 on_delete=models.CASCADE,
+                                 default=0)
+    pid = models.UUIDField(default=uuid.uuid4,
+                           editable=False)
+    slug = models.SlugField(max_length=200, default='/', db_index=True)
+    name = models.CharField(max_length=150, default='no name', db_index=True)
+    age = models.FloatField(default=0)
+    gender = models.CharField(max_length=1, default='U')
+    charisma = models.IntegerField(default=0)
+    constitution = models.IntegerField(default=0)
+    dexterity = models.IntegerField(default=0)
+    intelligence = models.IntegerField(default=0)
+    strength = models.IntegerField(default=0)
+    wisdom = models.IntegerField(default=0)
+    level = models.PositiveIntegerField(default=0)
+    experience_points = models.PositiveIntegerField(default=0)
+    character_class = models.CharField(max_length=100, blank=True, db_index=True)
+    race = models.CharField(max_length=50, default='human')
+    alignment = models.CharField(max_length=100, default='neutral')
+    platinum = models.IntegerField(default=0)
+    gold = models.IntegerField(default=0)
+    silver = models.IntegerField(default=0)
+    copper = models.IntegerField(default=0)
+    image = models.ImageField(upload_to='images/%Y/%m/%d', blank=True)
+    created_by = models.CharField(max_length=100, default='unknown')
+    created_date = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ('name',)
+        index_together = (('id', 'slug'),)
+
+    def __str__(self):
+        return f"Name: {self.name}, Class: {self.character_class}, Race: {self.race}, Level: {self.level}"
 
     def get_absolute_url(self):
-        return reverse('character', kwargs={'pk': str(self.pk)})
+        return reverse('character_detail', args=[self.id, self.slug])
 
-    def generate_attributes(self, **kwargs):
+    def generate_attributes(**kwargs):
         # call the dnd-character object to generate attributes
-        pass
+        gen = GenerateCharacter()
+        character = gen.CreateCharacter(kwargs)
+        return character
+
+
+
