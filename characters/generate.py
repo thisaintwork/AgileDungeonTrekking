@@ -15,5 +15,5 @@ class GenerateCharacter():
         #     biography="Born on Asgard, God of Thunder",
         #     classs=CLASSES["fighter"],
         # )
-        character = Character(kwargs)
+        character = Character(**kwargs)
         return character
