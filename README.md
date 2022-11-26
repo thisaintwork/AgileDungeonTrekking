@@ -1,3 +1,4 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/thisaintwork/AgileDungeonTrekking/Django%20CI?style=plastic)
 [![pipeline status](https://gitlab.com/dliu936/AgileDungeonTrekking/badges/main/pipeline.svg)](https://gitlab.com/dliu936/AgileDungeonTrekking/commits/main)
 
 # AgileDungeonTrekking
