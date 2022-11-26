@@ -11,8 +11,8 @@
         <h1>{{ character.name }}</h1>
         <h2><a href="{{ character.category.get_absolute_url }}">{{ character.category }}</a></h2>
         <form action="" method="post">
-            {{ form.as_p }}
             {% csrf_token %}
+            {{ form.as_p }}
             <input type="submit" value="Save">
         </form>
     </div>

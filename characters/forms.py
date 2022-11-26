@@ -1,6 +1,21 @@
 from django import forms
 
-class CharacterAddForm(forms.Form):
+
+class IntegerOrBlankField(forms.IntegerField):
+    def validate(self, value):
+        """Custom field to allow None or integer values"""
+        if not value:
+            return value
+        super().validate(value)
+
+class FloatOrBlankField(forms.FloatField):
+    def validate(self, value):
+        """Custom field to allow None or float values"""
+        if not value:
+            return value
+        super().validate(value)
+
+class CharacterForm(forms.Form):
     """
     Create a new character and add to user's list
 
@@ -26,24 +41,22 @@ class CharacterAddForm(forms.Form):
 
     valid_gender = (('1', 'M'), ('2', 'F'), ('3', 'O'))
 
-    name = forms.CharField(max_length=150)
-    character_class = forms.ChoiceField(choices=valid_class)
-    race = forms.ChoiceField(choices=valid_race)
-    alignment = forms.ChoiceField(choices=valid_alignment)
-    gender = forms.ChoiceField(choices=valid_gender)
+    image = forms.ImageField(required=False, label='Portrait')
+    name = forms.CharField(required=False, max_length=150, help_text='Leave blank for a random value')
+    character_class = forms.ChoiceField(required=False, initial='', choices=valid_class, help_text='Leave blank for a random value')
+    race = forms.ChoiceField(required=False, initial='', choices=valid_race, help_text='Leave blank for a random value')
+    alignment = forms.ChoiceField(required = False, initial='', choices=valid_alignment, help_text='Leave blank for a random value')
+    gender = forms.ChoiceField(required=False, initial='', choices=valid_gender, help_text='Leave blank for a random value')
+    age = FloatOrBlankField(help_text='Leave blank for a random value')
+    charisma = IntegerOrBlankField(help_text='Leave blank for a random value')
+    constitution = IntegerOrBlankField(help_text='Leave blank for a random value')
+    dexterity = IntegerOrBlankField(help_text='Leave blank for a random value')
+    intelligence = IntegerOrBlankField(help_text='Leave blank for a random value')
+    strength = IntegerOrBlankField(help_text='Leave blank for a random value')
+    wisdom = IntegerOrBlankField(help_text='Leave blank for a random value')
+    level = IntegerOrBlankField(required=False,help_text='Leave blank for a random value')
+    platinum = IntegerOrBlankField(required=False, label='Platinum Pieces',help_text='Leave blank for a random value')
+    gold = IntegerOrBlankField(required=False, label='Gold Pieces',help_text='Leave blank for a random value')
+    silver = IntegerOrBlankField(required=False, label='Silver Pieces',help_text='Leave blank for a random value')
+    copper = IntegerOrBlankField(required=False, label='Copper Pieces',help_text='Leave blank for a random value')
 
-    age = forms.FloatField()
-    charisma = forms.IntegerField()
-    constitution = forms.IntegerField()
-    dexterity = forms.IntegerField()
-    intelligence = forms.IntegerField()
-    strength = forms.IntegerField()
-    wisdom = forms.IntegerField()
-    level = forms.IntegerField()
-    experience_points = forms.IntegerField()
-    platinum = forms.IntegerField()
-    gold = forms.IntegerField()
-    silver = forms.IntegerField()
-    copper = forms.IntegerField()
-    image = forms.ImageField()
-    created_by = forms.CharField(max_length=100)
