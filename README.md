@@ -1,3 +1,5 @@
+[![pipeline status](https://gitlab.com/dliu936/AgileDungeonTrekking/badges/main/pipeline.svg)](https://gitlab.com/dliu936/AgileDungeonTrekking/commits/main)
+
 # AgileDungeonTrekking
 This is the repository for Fall CSCI-E71 for the Traveling Players project
 
