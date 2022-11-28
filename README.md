@@ -330,7 +330,7 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 
 **1.) Forecast for story points per sprint:** 12
 
-**2.) Rationale for forecast:** Yesterday's weather.
+**2.) Rationale for forecast:** We decided to use "Yesterday's Weather"  because our last sprint was successful and nothing had changed with our team's ability to perform.
 
 **3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
 
@@ -428,9 +428,6 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 
 **16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online)
 
-
-
-## Sprint Review
 **17.) Sprint review held on: November 25, 2022 6-6:30 p.m.
 
 Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
