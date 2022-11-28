@@ -345,7 +345,9 @@ We used Miro and continued to track our burndown chart in the chart used in the 
 
 ## Daily Scrums 
 
-**Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
+**Daily Scrum held on:** : 15, 16, 17, 23, and 25 Nov. from 6-7:00 pm; Typically, these meetings ran until 7:30 or 8 to allow more time for technical discussion as well. 
+
+Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
 **8.) Documentation for daily scrum on:** 
 - **9.) includes Last 24 for each team member**
@@ -406,9 +408,11 @@ Impediments: A couple team members had schedule conflicts with our ususal meetin
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
 https://miro.com/app/board/uXjVPINglNY=/
-
+![image](https://user-images.githubusercontent.com/54752285/204195355-1b39759d-5a5a-437a-a865-a61129133ef9.png)
+Also, see images above for Sprint Daily.
 
 **13.) Evidence of pair/mob programming, URL:** 
+
 
 **14.) Evidence of unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
@@ -424,17 +428,16 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 **16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online)
 
 
-**17.) Evidence of stakeholder attending Sprint Review:** [
 
 ## Sprint Review
-15.) Sprint review held on: November 25, 2022 6-6:30 p.m.
+17.) Sprint review held on: November 25, 2022 6-6:30 p.m.
 Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
 Team members present voted to enable Mike to temporarily perform the role of Product Owner while we continued the review.
-We also shared documentation of progress and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback:
+We also shared documentation of progress (https://docs.google.com/document/d/1VcrI3M1l4KAXeir3y_HONhRB29AsJDPBYRuy2akJA3M/edit) and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback:
 ![image](https://user-images.githubusercontent.com/54752285/204181276-ab218706-4eb3-45f9-98b6-6fd0bb31595c.png)
 This echoes Mike's feedback. At the time of the meeting, the website was working locally but not yet on our publicly hosted site. 
 
-Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. We've added this into the backlog for next sprint.
+Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. We've added this into the backlog for next sprint (PBI #108).
 
 ## CI/CD
 **18.) Evidence of Continuous Integration:
@@ -447,21 +450,22 @@ Takeaway: In a future sprint, we'd like to push develepment into production soon
 
 Team Retrospective | Date: 
 
-LIKED
+LIKED: Getting into a groove, meetings were smooth, understanding eachother better
 
-LEARNED
-
-
-LACKED
+LEARNED: Team timing, adaptability, tools
 
 
-LONGED FOR
+LACKED: Time to make things better, digital ocean experience
 
 
+LONGED FOR: More time
+
+![image](https://user-images.githubusercontent.com/54752285/204195960-d6a2725f-4b0d-4c06-8315-47a23fccbcab.png)
+Also viewable via Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
 - **action to improve team:**
 
-For Sprint Retrospective action, see item: 
+For Sprint Retrospective action, see item: #108 in backlog; Our team agreed that while we had working code locally, it was not working live at the time of our review. We agreed we would like to start moving code into production sooner. 
 
 **19.) Note: All of the PBIs in backlog are true user stories**
 
@@ -471,134 +475,3 @@ For Sprint Retrospective action, see item:
 
 
 
-=======
-1.) Forecast for story points per sprint:
-
-2.) Rationale for forecast:
-
-3.) Note: Only developers participated in moving items from product backlog into sprint backlog
-
-
-4.) *All stories in sprint backlog are less than forecast velocity per sprint.
-
-5.) *User stories were decomposed into developer tasks. Tasks are listed in sprint backlog.
-
-
-6.) Sprint Backlog, kanban board URL:
-
-7.) Sprint Burndown Chart, URL: 
-
-
-## Daily Scrums 
-
-3 November 2022,  6 pm- 7 pm
-
-7 November 2022,  5 pm- 6 pm
-
-8 November 2022,  6 pm- 7 pm
-
-9 November 2022,  6 pm- 7 pm
-
-10 November 2022, 6 pm- 7pm (Sprint Restrospective/Sprint Review)
-
-
-
-8.) Documentation for daily scrum on .....
-3 November 2022, 6 pm- 7 pm
-
-![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
-
-
-Kelly: 
-Last 24: Reviewed Part 2 Assignment 
-Next 24: Start Backlog
-Impediments: Hungry
-Impediment removal plan:Eat
-
-Diana: 
-Last 24: Contacted the Professor about Miro, Built Miro board for team scrum, planned meeting agenda, scheduled team meetings, shared a Colab notebook with team for dev
-Next 24: Schedule team meetings for remainder of term, update and manage Miro board, document Scrum in Readme, begin research for programming, share dev research with others
-Impediments: Tired
-Impediment removal plan: Rest at end of sprint, 
-
-Mike: 
-Last 24: Dev meeting, added dev items into backlog, broke down backlog items
-Next 24: Look at Colab, work on dev setup, work on backlog items, put homework items into GIT, snapshot of Miro, look at examples of projects
-Impediments: None identified
-Impediment removal plan: None identified
-
-Drew: 
-Last 24: Brain storm with Mike and flowchart
-Next 24: Backlog
-Impediments: Not having a sprint backlog
-Impediment removal plan: Create a backlog and agree to it Monday, begin some research for programming over the weekend
-
-7 November 2022,  5 pm-6pm
-Meeting Agenda: 
--Daily Scrum
--Review/Groom Backlog
--Task Out Development Items for Sprint 1
--Agree to Development Timeline
--Discuss Development Tools
-
-9.) includes Last 24 for each team member
-
-10.) includes Next 24 for each team member
-
-11.) includes impediments and impediment removal plans for each team member
-
-Kelly:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-Diana:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-Mike:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-Drew:
-Last 24:
-Next 24:
-Impediments:
-Impediment removal plan:
-
-
-12.) Evidence of updating sprint task board and burndown chart, URL:
-
-13.) Evidence of pair/mob programming, URL:
-
-14.) Evidence of unit tests, URL: 
-
-
-## Sprint Review
-15.) Sprint review held on: November 25, 2022 6-6:30 p.m.
-Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
-Team members present voted to enable Mike to temporarily perform the role of Product Owner while we continued the review.
-We also shared documentation of progress and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback:
-![image](https://user-images.githubusercontent.com/54752285/204181276-ab218706-4eb3-45f9-98b6-6fd0bb31595c.png)
-This echoes Mike's feedback. At the time of the meeting, the website was working locally but not yet on our publicly hosted site. 
-
-Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. 
-
-16.) Working software, URL: https://agiledungeontrekking.online/ 
-
-17.) Evidence of stakeholder attending spring review, URL:
-(product backlog revised based on feedback received)
-
-## Sprint Retrospective
-18.) Sprint review held on: November 10, 2022 6:30-7 p.m.
-
-action to improve team:
-
-action plan was made into PBI and placed at top of product backlog:
-
-19.) Note: All of the PBIs in backlog are true user stories
