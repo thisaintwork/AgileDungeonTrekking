@@ -441,9 +441,9 @@ This echoes Mike's feedback. At the time of the meeting, the website was working
 Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. We've added this into the backlog for next sprint (PBI #108).
 
 ## CI/CD
-**18.) Evidence of Continuous Integration:
 
-**19.) Evidence of Continous Delivery:
+Evidence of continuous integration and delivery here:
+(https://docs.google.com/document/d/198KfQxxp5BzQ1hnDoFkoFmIsUB00_CnpEVItDfxWvnQ/edit)
 
 
 ## Sprint Retrospective
