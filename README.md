@@ -323,6 +323,9 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 
 **19.) Note: All of the PBIs in backlog are true user stories**
 
+
+
+
 # Project Part 3: Second Sprint
 
 **1.) Forecast for story points per sprint:** 12
@@ -337,7 +340,8 @@ For Sprint Retrospective action, see item: [Issue #91](https://github.com/thisai
 
 **6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
-**7.) Sprint Burndown Chart, URL:**
+**7.) Sprint Burndown Chart, URL:**![image](https://user-images.githubusercontent.com/54752285/204190988-104465af-80c8-44e2-b50a-41f0e800006e.png)
+We used Miro and continued to track our burndown chart in the chart used in the first sprint: https://miro.com/app/board/uXjVPINglNY=/
 
 ## Daily Scrums 
 
@@ -356,10 +360,10 @@ Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TD
 Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue
 Blockers: 
 
-Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation. Mike if something here doesn’t work for you, just let us know!
+Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation. 
 Last 24:  Working on an issue in Digital Ocean; put homework in backlog
 Next 24: Fix issue in digital ocean; 
-Blockers:
+Blockers: Unable to attend, but team would relay information to Mike via Git, Discord, and phone conversation, as well as when he rejoined the next week's scrums
 
 Drew
 Last 24: researched Django, 
@@ -374,10 +378,35 @@ Blockers:
 
 
 
+Notes from team scrum on 25 Nov broken down by person:
 
+Diana
+Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages
+Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue
+Blockers: 
+
+Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation. 
+Last 24:  Working on an issue in Digital Ocean; put homework in backlog
+Next 24: Fix issue in digital ocean; 
+Blockers: Unable to attend, but team would relay information to Mike via Git, Discord, and phone conversation, as well as when he rejoined the next week's scrums
+
+Drew
+Last 24: researched Django, 
+Next 24: velocity decided, estimate PBIs
+Blockers:
+
+Kelly
+Last 24: 
+Next 24: Communicate with Diana and Team for Product Review -Virtually
+Blockers:Unexpected schedule conflict, team adapted and Mike subsituted for Kelly; Diana corresponded with documentation (see link below) for email correspondence feedback from stakeholder and product owner
+
+![image](https://user-images.githubusercontent.com/54752285/204192328-bd90465a-31e0-49f7-87d4-ee3a03196d18.png)
+
+Impediments: A couple team members had schedule conflicts with our ususal meeting times and one was unable to attend meetings during the course of the week. When possible, we adapted our schedule to meet at the best time for the team, and considered time and effort availability in sprint planning. Team members helped in ways that were outside of the scope of their traditional roles to accomodate for any gaps in the workflows.
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
 https://miro.com/app/board/uXjVPINglNY=/
+
 
 **13.) Evidence of pair/mob programming, URL:** 
 
@@ -390,16 +419,22 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 
 
 ## Sprint Review
-**15.) Sprint review held on:** 
+**15.) Sprint review held on: November 25, 2022 6-6:30 p.m.
 
 **16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online)
 
 
 **17.) Evidence of stakeholder attending Sprint Review:** [
 
-(Note: product backlog was revised based on feedback received.) 
+## Sprint Review
+15.) Sprint review held on: November 25, 2022 6-6:30 p.m.
+Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
+Team members present voted to enable Mike to temporarily perform the role of Product Owner while we continued the review.
+We also shared documentation of progress and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback:
+![image](https://user-images.githubusercontent.com/54752285/204181276-ab218706-4eb3-45f9-98b6-6fd0bb31595c.png)
+This echoes Mike's feedback. At the time of the meeting, the website was working locally but not yet on our publicly hosted site. 
 
-For Sprint Review feedback, See item: 
+Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. We've added this into the backlog for next sprint.
 
 ## CI/CD
 **18.) Evidence of Continuous Integration:
