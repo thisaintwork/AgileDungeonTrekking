@@ -546,7 +546,14 @@ Impediment removal plan:
 
 
 ## Sprint Review
-15.) Sprint review held on: November 10, 2022 6-6:30 p.m.
+15.) Sprint review held on: November 25, 2022 6-6:30 p.m.
+Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
+Team members present voted to enable Mike to temporarily perform the role of Product Owner while we continued the review.
+We also shared documentation of progress and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback below:
+![image](https://user-images.githubusercontent.com/54752285/204181276-ab218706-4eb3-45f9-98b6-6fd0bb31595c.png)
+This echoes Mike's feedback. At the time of the meeting, the website was working locally but not yet on our publicly hosted site. 
+
+Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. 
 
 16.) Working software, URL:
 
