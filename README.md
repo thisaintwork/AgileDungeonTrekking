@@ -356,55 +356,51 @@ Two of these are documented directly in this readme, but we maintain record of t
 
 
 
-Notes from team scrum on 15 Nov broken down by person:
-Diana   
+Notes from team scrum on 15 Nov broken down by person:   
+Diana      
+- Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages   
+- Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue   
+- Blockers:    
 
-Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages   
+Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation.    
+- Last 24:  Working on an issue in Digital Ocean; put homework in backlog
+- Next 24: Fix issue in digital ocean; 
+- Blockers: Unable to attend, but team would relay information to Mike via Git, Discord, and phone conversation, as well as when he rejoined the next week's scrums
 
-Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue   
+Drew   
+- Last 24: researched Django, 
+- Next 24: velocity decided, estimate PBIs
+- Blockers:
 
-Blockers:    
-
-
-Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation. 
-Last 24:  Working on an issue in Digital Ocean; put homework in backlog
-Next 24: Fix issue in digital ocean; 
-Blockers: Unable to attend, but team would relay information to Mike via Git, Discord, and phone conversation, as well as when he rejoined the next week's scrums
-
-Drew
-Last 24: researched Django, 
-Next 24: velocity decided, estimate PBIs
-Blockers:
-
-Kelly
-Last 24: Started HW3 backlog
-Next 24: Finish HW3 backlog, Product backlog grooming
-Blockers:
+Kelly   
+- Last 24: Started HW3 backlog
+- Next 24: Finish HW3 backlog, Product backlog grooming
+- Blockers:   
 ![image](https://user-images.githubusercontent.com/54752285/202337028-d476ab4c-3906-4760-9adb-1dbe86d17304.png)
 
 
 
-Notes from team scrum on 25 Nov broken down by person:
+Notes from team scrum on 25 Nov broken down by person:   
 
-Diana
-Last 24: TDD, wrote unit tests, move files to Git, switched from SQL to postgres, shared documentation on postgres with team, created character TDD and shared documentation with Team, MIRO board, agenda, plan dev timeline
-Next 24: Miro, research character dev, build CI/CD pipeline, document CI/CD pipeline, finish building tests, get API running in Digital Ocean, update the team readme, update the kanban as needed
-Blockers: 
+Diana   
+- Last 24: TDD, wrote unit tests, move files to Git, switched from SQL to postgres, shared documentation on postgres with team, created character TDD and shared documentation with Team, MIRO board, agenda, plan dev timeline
+- Next 24: Miro, research character dev, build CI/CD pipeline, document CI/CD pipeline, finish building tests, get API running in Digital Ocean, update the team readme, update the kanban as needed
+- Blockers: 
 
-Mike-
-Last 24: moving DNS to Heroku, asked Prof about testing, looked into deployment/testing briefly
-Next 24: Postgres; Digital Ocean
-Blockers: SSL certs, stake holder could not make it to the meeting, build failing in digital ocean
+Mike   
+- Last 24: moving DNS to Heroku, asked Prof about testing, looked into deployment/testing briefly
+- Next 24: Postgres; Digital Ocean
+- Blockers: SSL certs, stake holder could not make it to the meeting, build failing in digital ocean
 
 Drew
-Last 24: CI/CD review
-Next 24: Digital Ocean
-Blockers:
+- Last 24: CI/CD review
+- Next 24: Digital Ocean
+- Blockers:
 
 Kelly-unable to attend this meeting due to unexpected event
-Last 24: CI/CD review /n
-Next 24: Communicate with Diana and Team for Product Review -Virtually, upload jpg of Mind Map to GitHub /n
-Blockers:Unexpected schedule conflict, team adapted and Mike subsituted for Kelly; Diana corresponded with documentation (see link below) for email correspondence feedback from stakeholder and product owner
+- Last 24: CI/CD review using class resources, provided notes on CI/CD
+- Next 24: Communicate with Diana and Team for Product Review -Virtually, upload jpg of Mind Map to GitHub, backlog grooming, review structure of unit tests, update user story success criteria based on how team is testing.
+- Blockers: Unexpected schedule conflict, team adapted and Mike subsituted for Kelly; Diana corresponded with documentation (see link below) for email correspondence feedback from stakeholder and product owner
 
 ![image](https://user-images.githubusercontent.com/54752285/204192328-bd90465a-31e0-49f7-87d4-ee3a03196d18.png)
 
@@ -434,7 +430,7 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 
 
 ## Sprint Review
-17.) Sprint review held on: November 25, 2022 6-6:30 p.m.
+17.) Sprint review held on: November 25, 2022 6-6:30 p.m.   
 Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
 Team members present voted to enable Mike to temporarily perform the role of Product Owner while we continued the review.
 We also shared documentation of progress (https://docs.google.com/document/d/1VcrI3M1l4KAXeir3y_HONhRB29AsJDPBYRuy2akJA3M/edit) and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback:
@@ -458,9 +454,7 @@ LIKED: Getting into a groove, meetings were smooth, understanding eachother bett
 
 LEARNED: Team timing, adaptability, tools
 
-
 LACKED: Time to make things better, digital ocean experience
-
 
 LONGED FOR: More time
 
