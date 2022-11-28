@@ -446,6 +446,15 @@ Takeaway: In a future sprint, we'd like to push develepment into production soon
 Evidence of continuous integration and delivery here:
 (https://docs.google.com/document/d/198KfQxxp5BzQ1hnDoFkoFmIsUB00_CnpEVItDfxWvnQ/edit)
 
+Build showing a failure
+![image](https://user-images.githubusercontent.com/54752285/204358904-63ba17f7-34e5-43ff-9ce1-357662f9626e.png)
+
+
+The badge on the README.md reflects the most current status.
+![image](https://user-images.githubusercontent.com/54752285/204358726-42da6e9d-1c4b-49b5-9780-d4768c55871e.png)
+
+
+![image](https://user-images.githubusercontent.com/54752285/204358440-2cfa93d0-9c9a-4726-a614-329923f027fe.png)
 
 ## Sprint Retrospective
 **18.) Sprint retrospective held on:** 
