@@ -398,8 +398,8 @@ Next 24: Digital Ocean
 Blockers:
 
 Kelly-unable to attend this meeting due to unexpected event
-Last 24: CI/CD review
-Next 24: Communicate with Diana and Team for Product Review -Virtually
+Last 24: CI/CD review /n
+Next 24: Communicate with Diana and Team for Product Review -Virtually, upload jpg of Mind Map to GitHub /n
 Blockers:Unexpected schedule conflict, team adapted and Mike subsituted for Kelly; Diana corresponded with documentation (see link below) for email correspondence feedback from stakeholder and product owner
 
 ![image](https://user-images.githubusercontent.com/54752285/204192328-bd90465a-31e0-49f7-87d4-ee3a03196d18.png)
