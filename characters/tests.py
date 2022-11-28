@@ -5,12 +5,6 @@ import re
 from .models import AdtCharacter
 from dnd_character.classes import CLASSES
 
-
-class CharactersCITests(TestCase):
-    def test_build_fail_in_ci(self):
-        """ Deliberate failure to trigger error in CI """
-        self.assertEqual(1, 2)
-        
         
 class CharactersPageTests(TestCase):
     """ Unit test of the Characters page """
