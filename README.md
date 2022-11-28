@@ -412,7 +412,8 @@ https://miro.com/app/board/uXjVPINglNY=/
 Also, see images above for Sprint Daily.
 
 **13.) Evidence of pair/mob programming, URL:** 
-
+We used time during our meeting on 23 Nov. 2022 from 6-7 pm to conduct mob programming with all present. We worked on this issue #105 live in Digital Ocean ![image](https://user-images.githubusercontent.com/54752285/204357126-323aae02-1b20-4c80-a3bf-5aeda6253458.png).
+ 
 
 **14.) Evidence of unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
@@ -441,10 +442,19 @@ This echoes Mike's feedback. At the time of the meeting, the website was working
 Takeaway: In a future sprint, we'd like to push develepment into production sooner, so it is viewable by our product owner at the time of review. We've added this into the backlog for next sprint (PBI #108).
 
 ## CI/CD
-**18.) Evidence of Continuous Integration:
 
-**19.) Evidence of Continous Delivery:
+Evidence of continuous integration and delivery here:
+(https://docs.google.com/document/d/198KfQxxp5BzQ1hnDoFkoFmIsUB00_CnpEVItDfxWvnQ/edit)
 
+Build showing a failure
+![image](https://user-images.githubusercontent.com/54752285/204358904-63ba17f7-34e5-43ff-9ce1-357662f9626e.png)
+
+
+The badge on the README.md reflects the most current status.
+![image](https://user-images.githubusercontent.com/54752285/204358726-42da6e9d-1c4b-49b5-9780-d4768c55871e.png)
+
+
+![image](https://user-images.githubusercontent.com/54752285/204358440-2cfa93d0-9c9a-4726-a614-329923f027fe.png)
 
 ## Sprint Retrospective
 **18.) Sprint retrospective held on:** 
