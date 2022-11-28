@@ -357,10 +357,14 @@ Two of these are documented directly in this readme, but we maintain record of t
 
 
 Notes from team scrum on 15 Nov broken down by person:
-Diana
-Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages
-Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue
-Blockers: 
+Diana   
+
+Last 24: Miro, met with professor about Miro, write unit tests, TDD, document TDD and share with team, agenda for meeting/share agenda, research subpages   
+
+Next 24: Miro, research character/beast dev, message Mike with idea on Digital Ocean issue   
+
+Blockers:    
+
 
 Mike-filled this in based on discussions in the meeting, Mike joined toward the end due to another obligation. 
 Last 24:  Working on an issue in Digital Ocean; put homework in backlog
