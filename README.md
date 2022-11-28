@@ -430,7 +430,8 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 
 
 ## Sprint Review
-17.) Sprint review held on: November 25, 2022 6-6:30 p.m.   
+**17.) Sprint review held on: November 25, 2022 6-6:30 p.m.
+
 Our Product Owner and Stakeholder planned to attend but unexpectedly were not able. 
 Team members present voted to enable Mike to temporarily perform the role of Product Owner while we continued the review.
 We also shared documentation of progress (https://docs.google.com/document/d/1VcrI3M1l4KAXeir3y_HONhRB29AsJDPBYRuy2akJA3M/edit) and communicated outside of the planned meeting via email. Our Product Owner/Stakeholder gave this feedback:
