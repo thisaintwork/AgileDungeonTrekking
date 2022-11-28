@@ -412,7 +412,7 @@ https://miro.com/app/board/uXjVPINglNY=/
 Also, see images above for Sprint Daily.
 
 **13.) Evidence of pair/mob programming, URL:** 
-We used time during our meeting on 23 Nov. 2022 from 6-7 pm to conduct mob programming with all present. We worked on this issue #105 live in Digital Ocean ![image](https://user-images.githubusercontent.com/54752285/204357126-323aae02-1b20-4c80-a3bf-5aeda6253458.png).
+We used time during our meeting on 23 Nov. 2022 from 6-7 pm to conduct mob programming with all present. We worked on this issue #105 live in Digital Ocean ![image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/Sprint2_mob_programming.png).
  
 
 **14.) Evidence of unit tests, URL:** 
