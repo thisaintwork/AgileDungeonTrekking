@@ -1,3 +1,4 @@
+import os
 import random
 
 from django.shortcuts import render, get_object_or_404
@@ -52,7 +53,7 @@ def character_modify(request, id):
             # set xp based n level
             # set creadtedBy
             character.name = form.cleaned_data['name']
-            character.image = form.cleaned_data['image']
+            character.image = request.FILES['image']
 
             cid = form.cleaned_data['character_class']
             categories = Category.objects.get(id=cid)
@@ -119,7 +120,7 @@ def character_add(request):
             # set created By
             character = AdtCharacter()
             character.name = rname.generate(limit=1)[0] if not form.cleaned_data['name'] else form.cleaned_data['name']
-            character.image = form.cleaned_data['image']
+            character.image = request.FILES['image']
             character.character_class = random.choice(valid_class) if form.cleaned_data['character_class'] is None else form.cleaned_data['character_class']
             character.category = Category.objects.get(id=character.character_class)
             character.race = random.choice(valid_race) if form.cleaned_data['race'] is None else form.cleaned_data['race']
