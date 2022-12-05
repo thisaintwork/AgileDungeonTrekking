@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     # add our custom apps here
     'account.apps.AccountConfig',
     'characters.apps.CharactersConfig',
+    'django_behave',
+    'behave_django',
 ]
 
 MIDDLEWARE = [
@@ -174,3 +176,6 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
 ]
+
+# for running BDD tests
+TEST_RUNNER = 'django_behave.runner.DjangoBehaveOnlyTestSuiteRunner'

@@ -26,7 +26,7 @@
   <div id="main" class="character-list">
     <h1>{% if category %}{{ category.name }}{% else %}Characters{% endif %}</h1>
       <h2>
-          <a class="btn btn-primary" href="create">Create Character</a>
+          <a id="btn_create_char" class="btn btn-primary" href="create">Create Character</a>
       </h2>
 
       {% for character in characters %}
