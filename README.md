@@ -487,5 +487,123 @@ FINAL SPRINT
 ![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
 
 
+# Project Part 4: Final Sprint
 
+## Sprint Planning:
+
+**1.) Forecast for story points per sprint:** 8
+
+**2.) Rationale for forecast:** We weren't able to meet our goal last spring of 12 story points. We decided that we would work with the number of story points we did complete-- that number was 8.
+
+**3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
+
+**4.) Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates.**
+
+**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.**
+
+**6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
+
+**7.) Sprint Burndown Chart, URL:**
+
+
+## Daily Scrums 
+
+**Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
+
+
+
+
+
+**8.) Documentation for daily scrum on:** 
+- **9.) includes Last 24 for each team member**
+- **10.) includes Next 24 for each team member**
+- **11.) includes impediments and impediment removal plans for each team member**
+
+
+![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
+
+Collected notes from daily scrum discussion on 3 November 2022-
+
+Kelly: 
+- Last 24: 
+- Next 24: 
+- Impediments: 
+- Impediment removal plan:
+
+Diana: 
+- Last 24: 
+- Next 24: 
+- Impediments: 
+- Impediment removal plan: 
+
+Mike: 
+- Last 24: 
+- Next 24: 
+- Impediments:
+- Impediment removal plan: 
+
+Drew: 
+- Last 24: 
+- Next 24: 
+- Impediments: 
+- Impediment removal plan: 
+
+
+
+**12.) Evidence of updating sprint task board and burndown chart, URL:**
+
+
+**13.) Evidence of pair/mob programming, URL:** 
+
+**14.) Evidence of unit tests, URL:** 
+- [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
+- [passing tests screenshot] 
+
+We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
+
+
+
+
+## Sprint Review
+**15.) Sprint review held on:**
+
+**16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
+
+	 
+
+
+
+
+**17.) Evidence of stakeholder attending Sprint Review:** 
+
+**Feedback**: We demoed the product to our stakeholder and received the following feedback:
+
+
+(Note: product backlog was revised based on feedback received.) 
+
+For Sprint Review feedback, See item: 
+
+## Sprint Retrospective
+**18.) Sprint review held on:** .
+
+Team Retrospective | Date: 
+
+LIKED
+
+
+LEARNED
+
+
+LACKED
+	
+
+LONGED FOR
+
+
+
+- **action to improve team:** 
+
+For Sprint Retrospective action, see item: 
+
+**19.) Note: All of the PBIs in backlog are true user stories**
 
