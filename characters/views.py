@@ -118,7 +118,7 @@ def character_add(request):
             # set xp based n level
             # set created By
             character = AdtCharacter()
-            character.name = rname.generate(limit=5)[0] if not form.cleaned_data['name'] else form.cleaned_data['name']
+            character.name = rname.generate(limit=1)[0] if not form.cleaned_data['name'] else form.cleaned_data['name']
             character.image = form.cleaned_data['image']
             character.character_class = random.choice(valid_class) if form.cleaned_data['character_class'] is None else form.cleaned_data['character_class']
             character.category = Category.objects.get(id=character.character_class)

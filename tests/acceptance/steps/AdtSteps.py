@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 #use_step_matcher("re")
 import random_name_generator as rname
 
-new_name = rname.generate(limit=4)[0]
+new_name = rname.generate(limit=1)[0]
 
 @given('Player navigates to Website "{page}"')
 def step_impl(context, page):
