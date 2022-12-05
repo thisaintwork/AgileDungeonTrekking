@@ -7,15 +7,21 @@
         <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
     {% endblock extrahead %}
     <div class="character-detail">
-        <img src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/character/no_image.png" %}{% endif %}">
+        <img height="150px" width="150px" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/character/no_image.png" %}{% endif %}">
         <h1>{{ character.name }}</h1>
-        <h2><a href="{{ character.category.get_absolute_url }}">{{ character.category }}</a></h2>
-
-        <form action="{% url 'character_edit' character.id %}" method="post">
-            {{ form.as_p }}
-            {% csrf_token %}
-            <input type="submit" value="Edit">
-        </form>
-        {{ product.description|linebreaks }}
+        <p class="h6">Class: {{ character.character_class }}</p>
+        <p class="h6">Level: {{ character.level }}</p>
+        <p class="h6">XP: {{ character.experience_points }}</p>
+        <p class="h6">STR: {{ character.strength }}</p>
+        <p class="h6">INT: {{ character.intelligence }}</p>
+        <p class="h6">WIS: {{ character.wisdom }}</p>
+        <p class="h6">DEX: {{ character.dexterity }}</p>
+        <p class="h6">CON: {{ character.constitution }}</p>
+        <p class="h6">CHA: {{ character.charisma }}</p>
+        <p class="h6">PP: {{ character.platinum }}, GP: {{ character.gold }}, SP:{{ character.silver }}, CP:{{ character.copper }}</p>
+    </div>
+    <div>
+        <a class="btn btn-primary" href="{% url 'character_modify' character.id %}">Edit</a>
+        <a class="btn btn-primary" href="{% url 'characters' %}">Back to List</a>
     </div>
 {% endblock content %}

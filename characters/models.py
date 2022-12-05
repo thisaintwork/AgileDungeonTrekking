@@ -1,9 +1,9 @@
 import uuid
-
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 from .generate import GenerateCharacter
+
 
 class Category(models.Model):
     """ Class for filtering a player's list of characters """
@@ -22,6 +22,7 @@ class Category(models.Model):
     def get_absolute_url(self):
         return reverse('characters_by_category', args=[self.slug])
 
+
 class AdtCharacter(models.Model):
 
     category = models.ForeignKey(Category,
@@ -30,7 +31,7 @@ class AdtCharacter(models.Model):
                                  default=0)
     pid = models.UUIDField(default=uuid.uuid4,
                            editable=False)
-    slug = models.SlugField(max_length=200, default='/', db_index=True)
+    slug = models.SlugField(max_length=200, default='', db_index=True)
     name = models.CharField(max_length=150, default='no name', db_index=True)
     age = models.FloatField(default=0)
     gender = models.CharField(max_length=1, default='U')
@@ -61,13 +62,11 @@ class AdtCharacter(models.Model):
         return f"Name: {self.name}, Class: {self.character_class}, Race: {self.race}, Level: {self.level}"
 
     def get_absolute_url(self):
-        return reverse('character_detail', args=[self.id, self.slug])
+        return reverse('character_detail', args=[self.id])
 
     def generate_attributes(**kwargs):
         # call the dnd-character object to generate attributes
         gen = GenerateCharacter()
         character = gen.CreateCharacter(kwargs)
         return character
-
-
 

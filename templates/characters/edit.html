@@ -7,10 +7,9 @@
         <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
     {% endblock extrahead %}
     <div class="character-detail">
-        <img src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/character/no_image.png" %}{% endif %}">
+        <img height="150px" width="150px" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/character/no_image.png" %}{% endif %}">
         <h1>{{ character.name }}</h1>
-        <h2><a href="{{ character.category.get_absolute_url }}">{{ character.category }}</a></h2>
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.as_p }}
             <input type="submit" value="Save">
