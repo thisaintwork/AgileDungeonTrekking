@@ -7,10 +7,13 @@
         <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
     {% endblock extrahead %}
     <div class="character-detail">
-        <img height="150px" width="150px" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/character/no_image.png" %}{% endif %}">
+        <img height="150px" width="150px" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/characters/no_image.png" %}{% endif %}">
         <h1>{{ character.name }}</h1>
         <p class="h6">Class: {{ character.character_class }}</p>
         <p class="h6">Level: {{ character.level }}</p>
+        <p class="h6">Alignment: {{ character.alignment }}</p>
+        <p class="h6">Race: {{ character.race }}</p>
+        <p class="h6">Gender: {{ character.gender }}</p>
         <p class="h6">XP: {{ character.experience_points }}</p>
         <p class="h6">STR: {{ character.strength }}</p>
         <p class="h6">INT: {{ character.intelligence }}</p>

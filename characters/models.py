@@ -1,3 +1,4 @@
+import os.path
 import uuid
 from django.db import models
 from django.urls import reverse
@@ -34,7 +35,7 @@ class AdtCharacter(models.Model):
     slug = models.SlugField(max_length=200, default='', db_index=True)
     name = models.CharField(max_length=150, default='no name', db_index=True)
     age = models.FloatField(default=0)
-    gender = models.CharField(max_length=1, default='U')
+    gender = models.CharField(max_length=1, default='O')
     charisma = models.IntegerField(default=0)
     constitution = models.IntegerField(default=0)
     dexterity = models.IntegerField(default=0)
@@ -70,3 +71,7 @@ class AdtCharacter(models.Model):
         character = gen.CreateCharacter(kwargs)
         return character
 
+    @property
+    def image_name(self):
+
+        return os.path.basename(self.image.path) if self.image else ''

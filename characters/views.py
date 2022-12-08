@@ -1,11 +1,9 @@
-import os
 import random
-
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.urls import reverse
-from .models import Category, AdtCharacter
+from .models import AdtCharacter, Category
 from .forms import CharacterForm
 import random_name_generator as rname
 
@@ -54,11 +52,8 @@ def character_modify(request, id):
             # set creadtedBy
             character.name = form.cleaned_data['name']
             character.image = request.FILES['image']
-
-            cid = form.cleaned_data['character_class']
-            categories = Category.objects.get(id=cid)
-            character.character_class = categories.name
-            character.slug = categories.name
+            character.character_class = form.cleaned_data['character_class']
+            character.slug = form.cleaned_data['character_class']
             character.race = form.cleaned_data['race']
             character.alignment = form.cleaned_data['alignment']
             character.gender = form.cleaned_data['gender']
@@ -83,7 +78,7 @@ def character_modify(request, id):
     else:
         form = CharacterForm(initial={
                             'name': character.name,
-                            'image': character.image,
+                            'image': character.image.url,
                             'character_class': character.character_class,
                             'race': character.race,
                             'alignment': character.alignment,
@@ -116,13 +111,12 @@ def character_add(request):
         form = CharacterForm(request.POST)
         # Check if the form is valid:
         if form.is_valid():
-            # set xp based n level
-            # set created By
+
             character = AdtCharacter()
             character.name = rname.generate(limit=1)[0] if not form.cleaned_data['name'] else form.cleaned_data['name']
             character.image = request.FILES['image']
             character.character_class = random.choice(valid_class) if form.cleaned_data['character_class'] is None else form.cleaned_data['character_class']
-            character.category = Category.objects.get(id=character.character_class)
+            character.category = Category.objects.get(name=character.character_class)
             character.race = random.choice(valid_race) if form.cleaned_data['race'] is None else form.cleaned_data['race']
             character.alignment = random.choice(valid_alignment) if form.cleaned_data['alignment'] is None else form.cleaned_data['alignment']
             character.gender = random.choice(valid_gender) if form.cleaned_data['gender'] is None else form.cleaned_data['gender']

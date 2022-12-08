@@ -5,7 +5,7 @@ body {
     padding:0;
     font-family:helvetica, sans-serif;
     color : white;
-    background-image: url('../img/img04.png');
+    background-image: url('../img/background01.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -13,6 +13,7 @@ body {
 
 p {
     line-height: 1.8;
+    color: white;
 }
 
 a {
@@ -30,6 +31,7 @@ h1 {
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
     margin:10px 0 20px 0;
+    color: white;
 }
 
 h2 {
@@ -103,7 +105,7 @@ form p {
 label {
     float:left;
     clear:both;
-    color:#333;
+    color: white;
     margin-bottom:4px;
 }
 input, textarea {

@@ -8,7 +8,8 @@ from .models import AdtCharacter, Category
 from .forms import CharacterForm
 from dnd_character.classes import CLASSES
 import random_name_generator as rname
-        
+from django.core.files.base import ContentFile
+
 class CharactersPageTests(TestCase):
     """ Unit test of the Characters page """
 
@@ -58,11 +59,14 @@ class CharactersPageTests(TestCase):
 
     def create_fighter(self):
         """ Test create fighter character is successful """
-        self.fighter_random_name = rname.generate(limit=1)[0]
 
+        self.fighter_random_name = rname.generate(limit=1)[0]
         self.fighter = AdtCharacter()
         self.fighter.name = self.fighter_random_name
         self.fighter.character_class = 'fighter'
+        # simulate saving an image
+        content = ContentFile(b"these are bytes")
+        self.fighter.image.save('image01.jpg', content, save=True)
         self.fighter.category = Category.objects.get(name=self.fighter.character_class)
         self.fighter.race = random.choice(self.valid_race)
         self.fighter.alignment = random.choice(self.valid_alignment)
@@ -107,19 +111,22 @@ class CharactersPageTests(TestCase):
         self.wizard_random_name = rname.generate(limit=1)[0]
         self.wizard = AdtCharacter()
         self.wizard.name = self.wizard_random_name
+        # simulate saving an image
+        content = ContentFile(b"these are bytes")
+        self.wizard.image.save('image01.jpg', content, save=True)
         self.wizard.character_class = 'wizard'
         self.wizard.category = Category.objects.get(name=self.wizard.character_class)
         self.wizard.race = random.choice(self.valid_race)
         self.wizard.alignment = random.choice(self.valid_alignment)
         self.wizard.gender = random.choice(self.valid_gender)
         self.wizard.age = random.randint(1,99999)
-        self.wizard.charisma = random.randint(0,18)
-        self.wizard.constitution = random.randint(0,18)
-        self.wizard.dexterity = random.randint(0,18)
-        self.wizard.intelligence = random.randint(0,18)
-        self.wizard.strength = random.randint(0,18)
-        self.wizard.wisdom = random.randint(0,18)
-        self.wizard.level = random.randint(0,18)
+        self.wizard.charisma = random.randint(3,18)
+        self.wizard.constitution = random.randint(3,18)
+        self.wizard.dexterity = random.randint(3,18)
+        self.wizard.intelligence = random.randint(3,18)
+        self.wizard.strength = random.randint(3,18)
+        self.wizard.wisdom = random.randint(3,18)
+        self.wizard.level = random.randint(3,18)
         self.wizard.platinum = random.randint(0,99999999)
         self.wizard.gold = random.randint(0,99999999)
         self.wizard.silver = random.randint(0,99999999)
