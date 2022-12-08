@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 #use_step_matcher("re")
 import random_name_generator as rname
 
+
 new_name = rname.generate(limit=1)[0]
 
 @given('Player navigates to Website "{page}"')
@@ -18,13 +19,13 @@ def step_impl(context, page):
     assert (context.selenium.title == "Log-in")
 
 
-@when('Player enters valid credentials')
-def step_impl(context):
+@when('Player enters username "{}" and password "{}" as valid credentials')
+def step_impl(context, username, password):
     # Fill Login Information
-    username = context.selenium.find_element(By.ID, "id_username")
-    username.send_keys("adt_user1")
-    password = context.selenium.find_element(By.ID, "id_password")
-    password.send_keys("adt_password123")
+    id_username = context.selenium.find_element(By.ID, "id_username")
+    id_username.send_keys(username)
+    id_password = context.selenium.find_element(By.ID, "id_password")
+    id_password.send_keys(password)
 
     # Locate login button and click on it
     context.selenium.find_element(By.XPATH, '//input[@value="Log-in"]').click()
@@ -35,25 +36,25 @@ def step_impl(context):
 def step_impl(context):
     page = r"https://agiledungeontrekking.online/characters/"
     context.selenium.get(f'{page}')
-    chars = context.selenium.find_elements(By.TAG_NAME, "a")
     context.selenium.find_element(By.ID, "btn_create_char").click()
+    context.selenium.find_element(By.ID, "id_image").send_keys('static/img/characters/char1.png')
     assert (context.selenium.title == "Create Character")
 
 
 @then('Player can enter a name for the new character')
 def step_impl(context):
-    name_fld = context.selenium.find_element(By.XPATH, '//input[@type="text"]')
-    name_fld.click()
-    name_fld.clear()
-    name_fld.click()
+    #name_fld = context.selenium.find_element(By.XPATH, '//input[@type="text"]')
+    name_fld = context.selenium.find_element(By.ID, "id_name")
     name_fld.send_keys(new_name)
-    assert (name_fld.text == new_name)
+    valid_name = name_fld.get_attribute("value")
+    assert (valid_name == new_name)
+    context.selenium.find_element(By.ID, "id_save").submit()
 
 
 @then('The character has a name')
 def step_impl(context):
-    context.selenium.find_element(By.ID, "id_save").click()
-    assert (context.selenium.title == "Manage Characters")
+    print(context.selenium.title)
+    assert ("Manage Characters" in context.selenium.title)
     chars = context.selenium.find_elements(By.TAG_NAME, "a")
     # find the new character
     for c in chars:

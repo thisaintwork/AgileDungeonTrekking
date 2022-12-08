@@ -1,4 +1,7 @@
+import os
 import random
+import tempfile
+
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
@@ -6,6 +9,9 @@ from django.urls import reverse
 from .models import AdtCharacter, Category
 from .forms import CharacterForm
 import random_name_generator as rname
+from PIL import Image
+from django.core.files import File
+
 
 valid_alignment = ['Chaotic Evil', 'Chaotic Good', 'Chaotic Neutral',
                         'Lawful Evil', 'Lawful Good', 'Lawful Neutral',
@@ -114,7 +120,6 @@ def character_add(request):
 
             character = AdtCharacter()
             character.name = rname.generate(limit=1)[0] if not form.cleaned_data['name'] else form.cleaned_data['name']
-            character.image = request.FILES['image']
             character.character_class = random.choice(valid_class) if form.cleaned_data['character_class'] is None else form.cleaned_data['character_class']
             character.category = Category.objects.get(name=character.character_class)
             character.race = random.choice(valid_race) if form.cleaned_data['race'] is None else form.cleaned_data['race']
@@ -134,6 +139,14 @@ def character_add(request):
             character.silver = random.randint(0,9999999) if form.cleaned_data['silver'] is None else form.cleaned_data['silver']
             character.copper = random.randint(0,9999999) if form.cleaned_data['copper'] is None else form.cleaned_data['copper']
             character.created_by = request.user.username
+            if not request.FILES.get('image', False):
+                image = Image.new('RGB', (10, 10))
+                fn = os.path.join(tempfile.gettempdir(), '/blank.png')
+                image.save(fn, "PNG")
+                character.image.save(fn, File(open(fn,'rb')), True)
+
+            else:
+                character.image = request.FILES['image']
             character.save()
 
             # redirect to a new URL:

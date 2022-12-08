@@ -7,9 +7,7 @@ Feature: Naming a character
 
     Scenario: Player creates a new character
         Given Player navigates to Website "http://agiledungeontrekking.online/login"
-        When Player enters valid credentials
-            | username | password |
-            | adt_user1 | adt_password123 |
+        When Player enters username "adt_user1" and password "adt_password123" as valid credentials
         When Player creates a new character
         Then Player can enter a name for the new character
-        Then the character has a name
+        Then The character has a name
