@@ -1,5 +1,4 @@
-import io
-import os
+
 import random
 import tempfile
 
@@ -10,10 +9,7 @@ from django.urls import reverse
 from .models import AdtCharacter, Category
 from .forms import CharacterForm
 import random_name_generator as rname
-from PIL import Image
 from django.core.files import File
-from io import BytesIO
-from django.core.files.uploadedfile import SimpleUploadedFile
 
 valid_alignment = ['Chaotic Evil', 'Chaotic Good', 'Chaotic Neutral',
                         'Lawful Evil', 'Lawful Good', 'Lawful Neutral',
@@ -142,13 +138,12 @@ def character_add(request):
             character.copper = random.randint(0,9999999) if form.cleaned_data['copper'] is None else form.cleaned_data['copper']
             character.created_by = request.user.username
             if not request.FILES.get('image', False):
-                with tempfile.NamedTemporaryFile(delete=False) as tf:
-                    image = Image.new('RGB', (10, 10))
-                    s = BytesIO()
-                    image.save(s, "png")
-                    s.seek(0)
-                    suf = SimpleUploadedFile(tf.name, s.read(), content_type='image/png')
-                    character.image.save(tf.name, suf, True)
+                from urllib.request import urlopen
+                url = "https://picsum.photos/id/1/200/300"
+                img_temp = tempfile.NamedTemporaryFile(delete=True)
+                img_temp.write(urlopen(url).read())
+                img_temp.flush()
+                character.image.save('img.jpg', File(img_temp))
 
             else:
                 character.image = request.FILES['image']
