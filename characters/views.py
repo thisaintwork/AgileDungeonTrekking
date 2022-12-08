@@ -1,3 +1,4 @@
+import io
 import os
 import random
 import tempfile
@@ -140,10 +141,10 @@ def character_add(request):
             character.copper = random.randint(0,9999999) if form.cleaned_data['copper'] is None else form.cleaned_data['copper']
             character.created_by = request.user.username
             if not request.FILES.get('image', False):
-                image = Image.new('RGB', (10, 10))
-                fn = os.path.join(tempfile.gettempdir(), '/blank.png')
-                image.save(fn, "PNG")
-                character.image.save(fn, File(open(fn,'rb')), True)
+                with tempfile.NamedTemporaryFile(delete=False) as tf:
+                    image = Image.new('RGB', (10, 10))
+                    image.save(tf.name, "PNG")
+                    character.image.save(tf.name, File(open(tf.name, 'rb')), True)
 
             else:
                 character.image = request.FILES['image']
