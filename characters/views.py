@@ -12,7 +12,8 @@ from .forms import CharacterForm
 import random_name_generator as rname
 from PIL import Image
 from django.core.files import File
-
+from io import BytesIO
+from django.core.files.uploadedfile import SimpleUploadedFile
 
 valid_alignment = ['Chaotic Evil', 'Chaotic Good', 'Chaotic Neutral',
                         'Lawful Evil', 'Lawful Good', 'Lawful Neutral',
@@ -143,8 +144,11 @@ def character_add(request):
             if not request.FILES.get('image', False):
                 with tempfile.NamedTemporaryFile(delete=False) as tf:
                     image = Image.new('RGB', (10, 10))
-                    image.save(tf.name, "PNG")
-                    character.image.save(tf.name, File(open(tf.name, 'rb')), True)
+                    s = BytesIO()
+                    image.save(s, "png")
+                    s.seek(0)
+                    suf = SimpleUploadedFile(tf.name, s.read(), content_type='image/png')
+                    character.image.save(tf.name, suf, True)
 
             else:
                 character.image = request.FILES['image']

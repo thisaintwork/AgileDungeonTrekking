@@ -1,6 +1,24 @@
 body {
-    background-image: url('../img/img03.png');
+    background-image: url(../../img/img03.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5 , h6 {
+    font-family: 'Ubuntu', sans-serif; font-weight:normal;
+    color: black;
+}
+
+#id_image {
+    color: black;
+}
+
+p.h6 {
+    color: #5993bb;
+}
+
+label {
+    color: #5993bb;
 }
