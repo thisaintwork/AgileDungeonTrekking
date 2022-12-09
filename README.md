@@ -617,3 +617,5 @@ For Sprint Retrospective action, see item:
 
 **19.) Note: All of the PBIs in backlog are true user stories**
 
+20.) Sprint Review Practice 
+![image](https://user-images.githubusercontent.com/54752285/206596757-7ef5591c-af44-4683-9c9c-7a17164770d7.png)
