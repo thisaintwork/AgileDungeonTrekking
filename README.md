@@ -566,6 +566,13 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 
 ## Sprint Review
 **15.) Sprint review held on:**
+![image](https://user-images.githubusercontent.com/54752285/206594726-b2e167f9-7bf6-4e57-aa79-c68c97cfec8c.png)
+![image](https://user-images.githubusercontent.com/54752285/206595193-e5f5c082-de71-4f04-afcb-72b6a4885cdd.png)
+![image](https://user-images.githubusercontent.com/54752285/206595233-154da0c3-ca56-4fb3-8728-3913bbfb76a0.png)
+
+-capitalize the classes
+-build out the creatures page with 3 creatures
+-try to create a druid character
 
 **16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
 
