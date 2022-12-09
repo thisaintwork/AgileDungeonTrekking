@@ -573,6 +573,7 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 -capitalize the classes
 -build out the creatures page with 3 creatures
 -try to create a druid character
+-search up how much initiative
 
 **16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
 
