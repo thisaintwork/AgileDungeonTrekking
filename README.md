@@ -593,20 +593,21 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 For Sprint Review feedback, See item: 
 
 ## Sprint Retrospective
-**18.) Sprint review held on:** .
+**18.) Sprint retrospective held on:** Dec 9, 2022
+![s3 retrospective](https://user-images.githubusercontent.com/113219148/206879208-d1deef76-395a-4181-95c2-0bf27815feab.JPG)
 
-Team Retrospective | Date: 
+Team Retrospective | Date: Dec 9, 2022
 
-LIKED
-
-
-LEARNED
+LIKED: Team dailies went smooth, we had a better sense of what we could do in this sprint, debugged together, more awareness of team member strenghts and how to work together.
 
 
-LACKED
-	
+LEARNED:adapted communications-inavaialabilty to update kanban, used phones as needed, there is a lot more D&D than we will ever be able to get to, technical: how to implement postgress
 
-LONGED FOR
+
+LACKED:time to do as much as we liked.	
+
+
+LONGED FOR: Jira or use of widgets in Miro, shared cloud dev environment
 
 
 
