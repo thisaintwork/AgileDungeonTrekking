@@ -522,31 +522,31 @@ FINAL SPRINT
 
 ![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
 
-Collected notes from daily scrum discussion on 3 November 2022-
+Collected notes from daily scrum discussion on 8 December 2022-
 
 Kelly: 
-- Last 24: 
-- Next 24: 
-- Impediments: 
-- Impediment removal plan:
+- Last 24: backlog grooming, update user story success criteria based on how team is testing, started presentation
+- Next 24: continue work on presentation
+- Impediments: big learning curve with all of the new tools, inconsistent direction from teaching staff
+- Impediment removal plan: ask professor about comments from sprint #2
 
 Diana: 
-- Last 24: 
-- Next 24: 
-- Impediments: 
-- Impediment removal plan: 
+- Last 24: TDD/unit tests for characters, move files to GIT, Cucumber, BDD, finish building tests, research code/bugs 
+- Next 24: Documenation for presentation, agenda/comms with team to close out, priorities this week, create and shared documenation on updated code
+- Impediments: Debug images on digital ocean
+- Impediment removal plan: online training, work with team
 
 Mike: 
-- Last 24: 
-- Next 24: 
+- Last 24: resolved two items on the broken unit tests, update burndown chart, sent grading feedback doc
+- Next 24: updown burndown chart, work on broken unit test
 - Impediments:
 - Impediment removal plan: 
 
 Drew: 
-- Last 24: 
-- Next 24: 
-- Impediments: 
-- Impediment removal plan: 
+- Last 24: login page improvements
+- Next 24: bootstrap widgets, gherkin
+- Impediments: DB issues 
+- Impediment removal plan: online training, work with team
 
 
 
@@ -555,29 +555,32 @@ Drew:
 
 **13.) Evidence of pair/mob programming, URL:** 
 
-**14.) Evidence of unit tests, URL:** 
+**14.) Evidence of TDD/unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
 - [passing tests screenshot] 
 
-We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
+We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (**Test Driven Development**) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
 
+**15.) Continuous Integration:**
+- [ ] We have a Continuous Integration system running using Django. 
+- [ ] We only work on the main/trunk/master together—there are no long-lived code branches. 
+- [ ] The CI system automatically builds our code every time we push to main/trunk/master. 
+- [ ] The CI system automatically executes all our tests every time it builds the code. 
+- [ ] The evidence that our CI system exists and behaves properly is here:
 
+**16. Continuous Delivery:** 
+- [ ] We have a Continuous Delivery system running. 
+- [ ] When the build is "green", the CD system deploys our software to a production environment ("Production"); when the build is "red", the CD system doesn't alter Production. 
+- [ ] The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment.
+- [ ] The evidence that our CD system exists and behaves properly is here:
 
+## Sprint Review:
 
-## Sprint Review
-**15.) Sprint review held on:**
+**17.) Date:** 7 Dec 2022
 
+**17.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
 
-**16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
-
-	 
-
-
-
-
-**17.) Evidence of stakeholder attending Sprint Review:** 
-
-
+**18.) Evidence of stakeholder attending Sprint Review:** 
 
 **Feedback**: We demoed the product to our stakeholder and received the following feedback:
 ![image](https://user-images.githubusercontent.com/54752285/206594726-b2e167f9-7bf6-4e57-aa79-c68c97cfec8c.png)
