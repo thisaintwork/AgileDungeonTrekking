@@ -558,7 +558,7 @@ Drew:
 We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (**Test Driven Development**) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
 
 **15.) Continuous Integration:**
-- [ ] We have a Continuous Integration system running using Django. 
+- [ ] We have a Continuous Integration system running. 
 - [ ] We only work on the main/trunk/master together—there are no long-lived code branches. 
 - [ ] The CI system automatically builds our code every time we push to main/trunk/master. 
 - [ ] The CI system automatically executes all our tests every time it builds the code. 
