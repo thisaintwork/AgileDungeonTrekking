@@ -512,6 +512,7 @@ FINAL SPRINT
 
 
 
+![Dec8_miro_dailyscrumboard](https://user-images.githubusercontent.com/113219148/206878707-da9f8dee-5bb0-4a8b-906c-9cbdd5857e3d.JPG)
 
 
 **8.) Documentation for daily scrum on:** 
@@ -520,7 +521,7 @@ FINAL SPRINT
 - **11.) includes impediments and impediment removal plans for each team member**
 
 
-![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
+
 
 Collected notes from daily scrum discussion on 8 December 2022-
 
