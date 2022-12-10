@@ -24,9 +24,4 @@ urlpatterns = [
     path('', include('account.urls')),
     path('characters/', include('characters.urls'), name='characters'),
     path('creatures/', include('creatures.urls'), name='creatures'),
-]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL,
-                          document_root=settings.MEDIA_ROOT)
-    urlpatterns += staticfiles_urlpatterns()
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + staticfiles_urlpatterns()

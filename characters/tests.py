@@ -4,11 +4,11 @@ from django.contrib.auth import get_user_model
 from django.shortcuts import get_object_or_404
 from django.test import TestCase, Client
 from django.urls import reverse
-import models
-import forms
-from dnd_character.classes import CLASSES
+from .models import AdtCharacter, Category
+from .forms import CharacterForm
 import random_name_generator as rname
 from django.core.files.base import ContentFile
+
 
 class CharactersPageTests(TestCase):
     """ Unit test of the Characters page """
@@ -55,7 +55,6 @@ class CharactersPageTests(TestCase):
         self.assertNotEqual(response.status_code, 404)
         self.assertContains(response, 'Characters')
         self.assertContains(response, 'Categories')
-
 
     def create_fighter(self):
         """ Test create fighter character is successful """
