@@ -495,11 +495,11 @@ FINAL SPRINT
 
 **2.) Rationale for forecast:** We weren't able to meet our goal last spring of 12 story points. We decided that we would work with the number of story points we did complete-- that number was 8.
 
-**3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
+**3.) Sprint backlog:** We pulled stories from the top of our product backlog to our sprint backlog. The aggregate size did not exceed our forecast.  **Note:** Only developers participated in moving items from product backlog into sprint backlog
 
-**4.) Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates.**
+**4.) Stories:** Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates so that the size of each backlog item is less than half of our forecast velocity.
 
-**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.**
+**5.) Developer Tasks:** User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.
 
 **6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
