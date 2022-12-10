@@ -510,18 +510,13 @@ FINAL SPRINT
 
 **Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
-
-
-![Dec8_miro_dailyscrumboard](https://user-images.githubusercontent.com/113219148/206878707-da9f8dee-5bb0-4a8b-906c-9cbdd5857e3d.JPG)
-
-
 **8.) Documentation for daily scrum on:** 
 - **9.) includes Last 24 for each team member**
 - **10.) includes Next 24 for each team member**
 - **11.) includes impediments and impediment removal plans for each team member**
 
 
-
+![Dec8_miro_dailyscrumboard](https://user-images.githubusercontent.com/113219148/206878707-da9f8dee-5bb0-4a8b-906c-9cbdd5857e3d.JPG)
 
 Collected notes from daily scrum discussion on 8 December 2022-
 
@@ -575,7 +570,7 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 - [ ] The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment.
 - [ ] The evidence that our CD system exists and behaves properly is here:
 
-## Sprint Review:
+## Sprint Review (bonus!):
 
 **17.) Date:** 7 Dec 2022
 
