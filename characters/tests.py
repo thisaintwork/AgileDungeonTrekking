@@ -4,8 +4,11 @@ from django.contrib.auth import get_user_model
 from django.shortcuts import get_object_or_404
 from django.test import TestCase, Client
 from django.urls import reverse
-from .models import AdtCharacter, Category
-from .forms import CharacterForm
+# from .models import AdtCharacter, Category
+# from .forms import CharacterForm
+from . import models as m
+from . import forms as f
+
 import random_name_generator as rname
 from django.core.files.base import ContentFile
 
@@ -27,8 +30,8 @@ class CharactersPageTests(TestCase):
         self.user2.save()
 
         # create scaled down category data
-        Category.objects.create(name='fighter',slug='fighter').save()
-        Category.objects.create(name='wizard', slug='wizard').save()
+        m.Category.objects.create(name='fighter',slug='fighter').save()
+        m.Category.objects.create(name='wizard', slug='wizard').save()
 
         # create lists of valid values
         self.valid_alignment = ['Chaotic Evil', 'Chaotic Good', 'Chaotic Neutral',
@@ -60,13 +63,13 @@ class CharactersPageTests(TestCase):
         """ Test create fighter character is successful """
 
         self.fighter_random_name = rname.generate(limit=1)[0]
-        self.fighter = AdtCharacter()
+        self.fighter = m.AdtCharacter()
         self.fighter.name = self.fighter_random_name
         self.fighter.character_class = 'fighter'
         # simulate saving an image
         content = ContentFile(b"these are bytes")
         self.fighter.image.save('image01.jpg', content, save=True)
-        self.fighter.category = Category.objects.get(name=self.fighter.character_class)
+        self.fighter.category = m.Category.objects.get(name=self.fighter.character_class)
         self.fighter.race = random.choice(self.valid_race)
         self.fighter.alignment = random.choice(self.valid_alignment)
         self.fighter.gender = 'M'
@@ -98,7 +101,7 @@ class CharactersPageTests(TestCase):
     def test_fighter_is_valid(self):
         """ Test fighter character has valid attributes """
         fighter_id = self.create_fighter()
-        character = get_object_or_404(AdtCharacter,
+        character = get_object_or_404(m.AdtCharacter,
                                       id=fighter_id)
         self.assertEqual(character.character_class, 'fighter')
         self.assertTrue(character.name is not None)
@@ -108,13 +111,13 @@ class CharactersPageTests(TestCase):
         """ Test creating a wizard is successful """
 
         self.wizard_random_name = rname.generate(limit=1)[0]
-        self.wizard = AdtCharacter()
+        self.wizard = m.AdtCharacter()
         self.wizard.name = self.wizard_random_name
         # simulate saving an image
         content = ContentFile(b"these are bytes")
         self.wizard.image.save('image01.jpg', content, save=True)
         self.wizard.character_class = 'wizard'
-        self.wizard.category = Category.objects.get(name=self.wizard.character_class)
+        self.wizard.category = m.Category.objects.get(name=self.wizard.character_class)
         self.wizard.race = random.choice(self.valid_race)
         self.wizard.alignment = random.choice(self.valid_alignment)
         self.wizard.gender = random.choice(self.valid_gender)
@@ -148,7 +151,7 @@ class CharactersPageTests(TestCase):
         self.client.login(username=self.user.username, password=self.user_password_text)
 
         wizard_id = self.create_wizard()
-        character = get_object_or_404(AdtCharacter,
+        character = get_object_or_404(m.AdtCharacter,
                                       id=wizard_id)
         self.assertEqual(character.character_class, 'wizard')
         self.assertTrue(character.name is not None)
@@ -157,7 +160,7 @@ class CharactersPageTests(TestCase):
     def test_wizard_attributes(self):
         """ Test creating a wizard is successful """
         wizard_id = self.create_wizard()
-        character = get_object_or_404(AdtCharacter,
+        character = get_object_or_404(m.AdtCharacter,
                                       id=wizard_id)
         self.assertEqual(character.character_class, 'wizard')
         self.assertTrue(character.alignment in self.valid_alignment)
@@ -167,7 +170,7 @@ class CharactersPageTests(TestCase):
     def test_validate_ability_scores(self):
         """ Test wizard has valid ability scores """
         wizard_id = self.create_wizard()
-        character = get_object_or_404(AdtCharacter,
+        character = get_object_or_404(m.AdtCharacter,
                                       id=wizard_id)
         self.assertTrue(self.wizard.charisma in range(0, 19))
         self.assertTrue(self.wizard.constitution in range(0, 19))
@@ -208,7 +211,7 @@ class CharactersPageTests(TestCase):
         self.client.logout()
         login = self.client.login(username=self.user.username, password=self.user_password_text)
         fighter_id = self.create_fighter()
-        character = AdtCharacter.objects.get(id=fighter_id)
+        character = m.AdtCharacter.objects.get(id=fighter_id)
         response = self.client.get(reverse('character_detail', args=[fighter_id]))
         self.assertContains(response, character.name)
 
@@ -237,12 +240,12 @@ class CharacterFormTests(TestCase):
     """ Test the forms associated with characters. """
 
     def test_character_form_name_label(self):
-        form = CharacterForm()
+        form = f.CharacterForm()
         self.assertEqual(form.fields['name'].label, "Name")
         self.assertEqual(form.fields['name'].help_text, "Leave blank for a random value")
 
     def test_character_form_image_label(self):
-        form = CharacterForm()
+        form = f.CharacterForm()
         self.assertEqual(form.fields['image'].label, "Portrait")
 
 
