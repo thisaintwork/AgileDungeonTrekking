@@ -2,7 +2,7 @@ from django.urls import path
 from . import views
 from django.conf import settings
 from django.conf.urls.static import static
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 
 
 urlpatterns = [
@@ -11,4 +11,4 @@ urlpatterns = [
     path('detail/<int:id>', views.character_detail, name='character_detail'),
     path('create', views.character_add, name='character_add'),
     path('modify/<int:id>', views.character_modify, name='character_modify'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + staticfiles_urlpatterns()
+] += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
