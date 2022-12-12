@@ -505,6 +505,8 @@ FINAL SPRINT
 
 **7.) Sprint Burndown Chart, URL:**
 We used Miro and continued to track our burndown chart in the chart used in the first sprint: https://miro.com/app/board/uXjVPINglNY=/
+
+
 ![image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/2022-12-12_101511.png)
 
 
@@ -550,6 +552,11 @@ Drew:
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
 See Miro board for evidence of updating sprint task board and burndown chart: https://miro.com/app/board/uXjVPINglNY=/
+
+
+![image](https://raw.githubusercontent.com/thisaintwork/AgileDungeonTrekking/main/2022-12-12_102705.png)
+
+
 
 **13.) Evidence of pair/mob programming, URL:** 
 ![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
