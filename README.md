@@ -504,6 +504,7 @@ FINAL SPRINT
 **6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
 **7.) Sprint Burndown Chart, URL:**
+We used Miro and continued to track our burndown chart in the chart used in the first sprint: https://miro.com/app/board/uXjVPINglNY=/
 
 
 ## Daily Scrums 
@@ -547,7 +548,7 @@ Drew:
 
 
 **12.) Evidence of updating sprint task board and burndown chart, URL:**
-
+See Miro board for evidence of updating sprint task board and burndown chart: https://miro.com/app/board/uXjVPINglNY=/
 
 **13.) Evidence of pair/mob programming, URL:** 
 ![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
