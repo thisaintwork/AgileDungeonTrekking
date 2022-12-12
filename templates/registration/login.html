@@ -11,16 +11,22 @@
     </p>
   {% else %}
 
+    # This is part of working on #90.
+    # we wanted to get more readable text.
+    # We wanted to keep the changes local
+    # so we are using a span and in line style
+
     <span>
-        <style> #p91 {
-            display: table; /* keep the background color wrapped tight */
-            border: 1px solid blue;
-            margin: 0px auto 0px auto; /* keep the table centered */
-            padding:5px;background-color:black;color:#ffffff;
-            font-size:2.0em
-        }
+        <style>
+          #p90 {
+                display: table;
+                border: 1px solid blue;
+                padding:5px;font-size:20px;background-color:black;color:#ffffff;
+            }
+
+
         </style>
-        <p id=p91>
+        <p id=p90>
           Please, use the following form to log-in.
           If you don't have an account <a href="{% url "register" %}">register here</a>.
         </p>
