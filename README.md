@@ -508,9 +508,9 @@ FINAL SPRINT
 
 ## Daily Scrums 
 
-**Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
+**Daily Scrum held on:** : One of these are documented directly in this readme, but we maintain records of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
-**8.) Documentation for daily scrum on:** 
+**8.) Documentation for daily scrum on: 8 December 2022** 
 - **9.) includes Last 24 for each team member**
 - **10.) includes Next 24 for each team member**
 - **11.) includes impediments and impediment removal plans for each team member**
@@ -535,8 +535,8 @@ Diana:
 Mike: 
 - Last 24: resolved two items on the broken unit tests, update burndown chart, sent grading feedback doc
 - Next 24: updown burndown chart, work on broken unit test
-- Impediments:
-- Impediment removal plan: 
+- Impediments: None
+- Impediment removal plan: None
 
 Drew: 
 - Last 24: login page improvements
@@ -560,20 +560,25 @@ Our team pair mob programmed during multiple meetings this sprint, though one me
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
 - [passing tests screenshot] 
 
-We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (**Test Driven Development**) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
+We keep a Word file [Agile Dungeon Trekking TDD.docx] (https://github.com/thisaintwork/AgileDungeonTrekking/files/9997640/Agile.Dungeon.Trekking.TDD.docx)  that documents our Test-first (**Test Driven Development**) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
+
+## CI/CD
+
+Evidence of continuous integration and delivery here:
+(https://docs.google.com/document/d/198KfQxxp5BzQ1hnDoFkoFmIsUB00_CnpEVItDfxWvnQ/edit)
 
 **15.) Continuous Integration:**
-- [ ] We have a Continuous Integration system running. 
-- [ ] We only work on the main/trunk/master together—there are no long-lived code branches. 
-- [ ] The CI system automatically builds our code every time we push to main/trunk/master. 
-- [ ] The CI system automatically executes all our tests every time it builds the code. 
-- [ ] The evidence that our CI system exists and behaves properly is here:
+- We have a Continuous Integration system running. 
+- We only work on the main/trunk/master together—there are no long-lived code branches. 
+- The CI system automatically builds our code every time we push to main/trunk/master. 
+- The CI system automatically executes all our tests every time it builds the code. 
+- The evidence that our CI system exists and behaves properly is here:
 
 **16. Continuous Delivery:** 
-- [ ] We have a Continuous Delivery system running. 
-- [ ] When the build is "green", the CD system deploys our software to a production environment ("Production"); when the build is "red", the CD system doesn't alter Production. 
-- [ ] The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment.
-- [ ] The evidence that our CD system exists and behaves properly is here:
+- We have a Continuous Delivery system running. 
+- When the build is "green", the CD system deploys our software to a production environment ("Production"); when the build is "red", the CD system doesn't alter Production. 
+- The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment.
+- The evidence that our CD system exists and behaves properly is here:
 
 ## Sprint Review (bonus!):
 
@@ -596,7 +601,7 @@ Sprint Review feedback includes the following:
 
 (Note: product backlog was revised based on feedback received.) 
 
-For Sprint Review feedback, See item: 
+For Sprint Review feedback, See item: [Review Feedback: capitalize the classes](https://github.com/thisaintwork/AgileDungeonTrekking/issues/117)
 
 ## Sprint Retrospective
 **18.) Sprint retrospective held on:** Dec 9, 2022
@@ -623,5 +628,7 @@ For Sprint Retrospective action, see item: [#115] (https://github.com/thisaintwo
 
 **19.) Note: All of the PBIs in backlog are true user stories**
 
+
+## In Class Sprint Review (12/12/22):
 20.) Sprint Review Practice 
 ![image](https://user-images.githubusercontent.com/54752285/206596757-7ef5591c-af44-4683-9c9c-7a17164770d7.png)
