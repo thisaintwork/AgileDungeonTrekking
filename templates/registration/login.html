@@ -10,10 +10,21 @@
       Please try again.
     </p>
   {% else %}
-    <p style="font-size:2.0em">
-      Please, use the following form to log-in.
-      If you don't have an account <a href="{% url "register" %}">register here</a>.
-    </p>
+
+    <span>
+        <style> #p91 {
+            display: table; /* keep the background color wrapped tight */
+            border: 1px solid blue;
+            margin: 0px auto 0px auto; /* keep the table centered */
+            padding:5px;background-color:black;color:#ffffff;
+            font-size:2.0em
+        }
+        </style>
+        <p id=p91>
+          Please, use the following form to log-in.
+          If you don't have an account <a href="{% url "register" %}">register here</a>.
+        </p>
+    </span>
   {% endif %}
   <div class="login-form">
     <form action="{% url 'login' %}" method="post">
