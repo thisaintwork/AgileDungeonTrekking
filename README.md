@@ -491,9 +491,9 @@ FINAL SPRINT
 
 ## Sprint Planning:
 
-**1.) Forecast for story points per sprint:** 8
+**1.) Forecast for story points per sprint:** 14
 
-**2.) Rationale for forecast:** We weren't able to meet our goal last spring of 12 story points. We decided that we would work with the number of story points we did complete-- that number was 8.
+**2.) Rationale for forecast:** We took into account the backlog, and decided that we could complete more items this week than last. We decided that 14 would be a comfortable number from our forecast of 12 last week.
 
 **3.) Sprint backlog:** We pulled stories from the top of our product backlog to our sprint backlog. The aggregate size did not exceed our forecast.  **Note:** Only developers participated in moving items from product backlog into sprint backlog
 
