@@ -484,7 +484,7 @@ For Sprint Retrospective action, see item: #108 in backlog; Our team agreed that
 
 
 FINAL SPRINT
-![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
+
 
 
 # Project Part 4: Final Sprint
@@ -495,11 +495,11 @@ FINAL SPRINT
 
 **2.) Rationale for forecast:** We weren't able to meet our goal last spring of 12 story points. We decided that we would work with the number of story points we did complete-- that number was 8.
 
-**3.) Note:** Only developers participated in moving items from product backlog into sprint backlog
+**3.) Sprint backlog:** We pulled stories from the top of our product backlog to our sprint backlog. The aggregate size did not exceed our forecast.  **Note:** Only developers participated in moving items from product backlog into sprint backlog
 
-**4.) Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates.**
+**4.) Stories:** Some of the stories in the sprint backlog were greater than half of the forecast velocity for the sprint. These stories were split into smaller stories with new estimates so that the size of each backlog item is less than half of our forecast velocity.
 
-**5.) User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.**
+**5.) Developer Tasks:** User stories were decomposed into developer tasks. These tasks are listed within each sprint backlog item. The aggregate size of the stories does not exceed our forecast.
 
 **6.) Sprint Backlog, kanban board URL:** https://github.com/orgs/thisaintwork/projects/3/views/2
 
@@ -510,43 +510,39 @@ FINAL SPRINT
 
 **Daily Scrum held on:** : Two of these are documented directly in this readme, but we maintain record of the meetings in Miro here: https://miro.com/app/board/uXjVPINglNY=/
 
-
-
-
-
 **8.) Documentation for daily scrum on:** 
 - **9.) includes Last 24 for each team member**
 - **10.) includes Next 24 for each team member**
 - **11.) includes impediments and impediment removal plans for each team member**
 
 
-![image](https://user-images.githubusercontent.com/54752285/200216858-2aacc1c1-4809-4faf-a600-d8ceb009a470.png)
+![Dec8_miro_dailyscrumboard](https://user-images.githubusercontent.com/113219148/206878707-da9f8dee-5bb0-4a8b-906c-9cbdd5857e3d.JPG)
 
-Collected notes from daily scrum discussion on 3 November 2022-
+Collected notes from daily scrum discussion on 8 December 2022-
 
 Kelly: 
-- Last 24: 
-- Next 24: 
-- Impediments: 
-- Impediment removal plan:
+- Last 24: backlog grooming, update user story success criteria based on how team is testing, started presentation
+- Next 24: continue work on presentation
+- Impediments: big learning curve with all of the new tools, inconsistent direction from teaching staff
+- Impediment removal plan: ask professor about comments from sprint #2
 
 Diana: 
-- Last 24: 
-- Next 24: 
-- Impediments: 
-- Impediment removal plan: 
+- Last 24: TDD/unit tests for characters, move files to GIT, Cucumber, BDD, finish building tests, research code/bugs 
+- Next 24: Documenation for presentation, agenda/comms with team to close out, priorities this week, create and shared documenation on updated code
+- Impediments: Debug images on digital ocean
+- Impediment removal plan: online training, work with team
 
 Mike: 
-- Last 24: 
-- Next 24: 
+- Last 24: resolved two items on the broken unit tests, update burndown chart, sent grading feedback doc
+- Next 24: updown burndown chart, work on broken unit test
 - Impediments:
 - Impediment removal plan: 
 
 Drew: 
-- Last 24: 
-- Next 24: 
-- Impediments: 
-- Impediment removal plan: 
+- Last 24: login page improvements
+- Next 24: bootstrap widgets, gherkin
+- Impediments: DB issues 
+- Impediment removal plan: online training, work with team
 
 
 
@@ -554,36 +550,45 @@ Drew:
 
 
 **13.) Evidence of pair/mob programming, URL:** 
+![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
 
-**14.) Evidence of unit tests, URL:** 
+Our team pair mob programmed during multiple meetings this sprint, though one meeting (December 5) was more particularly planned solely for mob programming.
+
+
+
+**14.) Evidence of TDD/unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
 - [passing tests screenshot] 
 
-We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (TDD) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
+We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-first (**Test Driven Development**) approach-including 11 unit tests-within the Kanban for PBI #89 at https://github.com/thisaintwork/AgileDungeonTrekking/issues/89.
 
+**15.) Continuous Integration:**
+- [ ] We have a Continuous Integration system running. 
+- [ ] We only work on the main/trunk/master together—there are no long-lived code branches. 
+- [ ] The CI system automatically builds our code every time we push to main/trunk/master. 
+- [ ] The CI system automatically executes all our tests every time it builds the code. 
+- [ ] The evidence that our CI system exists and behaves properly is here:
 
+**16. Continuous Delivery:** 
+- [ ] We have a Continuous Delivery system running. 
+- [ ] When the build is "green", the CD system deploys our software to a production environment ("Production"); when the build is "red", the CD system doesn't alter Production. 
+- [ ] The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment.
+- [ ] The evidence that our CD system exists and behaves properly is here:
 
+## Sprint Review (bonus!):
 
-## Sprint Review
-**15.) Sprint review held on:**
+**17.) Date:** 7 Dec 2022
 
+**17.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
 
-**16.) Working software, URL:** [Agile Dungeon Trekking](http://agiledungeontrekking.online). 
-
-	 
-
-
-
-
-**17.) Evidence of stakeholder attending Sprint Review:** 
-
-
+**18.) Evidence of stakeholder attending Sprint Review:** 
 
 **Feedback**: We demoed the product to our stakeholder and received the following feedback:
 ![image](https://user-images.githubusercontent.com/54752285/206594726-b2e167f9-7bf6-4e57-aa79-c68c97cfec8c.png)
 ![image](https://user-images.githubusercontent.com/54752285/206595193-e5f5c082-de71-4f04-afcb-72b6a4885cdd.png)
 ![image](https://user-images.githubusercontent.com/54752285/206595233-154da0c3-ca56-4fb3-8728-3913bbfb76a0.png)
 
+Sprint Review feedback includes the following:
 -capitalize the classes
 -build out the creatures page with 3 creatures
 -try to create a druid character
@@ -594,26 +599,27 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 For Sprint Review feedback, See item: 
 
 ## Sprint Retrospective
-**18.) Sprint review held on:** .
+**18.) Sprint retrospective held on:** Dec 9, 2022
+![s3 retrospective](https://user-images.githubusercontent.com/113219148/206879208-d1deef76-395a-4181-95c2-0bf27815feab.JPG)
 
-Team Retrospective | Date: 
+Team Retrospective | Date: Dec 9, 2022
 
-LIKED
-
-
-LEARNED
+LIKED: Team dailies went smooth, we had a better sense of what we could do in this sprint, debugged together, more awareness of team member strenghts and how to work together.
 
 
-LACKED
-	
-
-LONGED FOR
+LEARNED:adapted communications-inavaialabilty to update kanban, used phones as needed, there is a lot more D&D than we will ever be able to get to, technical: how to implement postgress
 
 
+LACKED:time to do as much as we liked.	
 
-- **action to improve team:** 
 
-For Sprint Retrospective action, see item: 
+LONGED FOR: Jira or use of widgets in Miro, shared cloud dev environment
+
+
+
+- **action to improve team:** Review and simplify software dependencies
+
+For Sprint Retrospective action, see item: [#115] (https://github.com/thisaintwork/AgileDungeonTrekking/issues/115)
 
 **19.) Note: All of the PBIs in backlog are true user stories**
 

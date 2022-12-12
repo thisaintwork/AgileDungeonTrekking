@@ -4,6 +4,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
+
 urlpatterns = [
     path('', views.character_list, name='characters'),
     path('<slug:category_slug>/', views.character_list, name='characters_by_category'),

@@ -10,10 +10,28 @@
       Please try again.
     </p>
   {% else %}
-    <p>
-      Please, use the following form to log-in.
-      If you don't have an account <a href="{% url "register" %}">register here</a>.
-    </p>
+
+<!-- # This is part of working on #90.
+# we wanted to get more readable text.
+# We wanted to keep the changes local
+# so we are using a span and in line style
+ -->
+
+    <span>
+        <style>
+          #p90 {
+                display: table;
+                border: 1px solid blue;
+                padding:5px;font-size:20px;background-color:black;color:#ffffff;
+            }
+
+
+        </style>
+        <p id=p90>
+          Please, use the following form to log-in.
+          If you don't have an account <a href="{% url "register" %}">register here</a>.
+        </p>
+    </span>
   {% endif %}
   <div class="login-form">
     <form action="{% url 'login' %}" method="post">
