@@ -581,13 +581,13 @@ Evidence of continuous integration and delivery here:
 - We only work on the main/trunk/master together—there are no long-lived code branches. 
 - The CI system automatically builds our code every time we push to main/trunk/master. 
 - The CI system automatically executes all our tests every time it builds the code. 
-- The evidence that our CI system exists and behaves properly is here:
+- The evidence that our CI system exists and behaves properly is here: (https://docs.google.com/document/d/198KfQxxp5BzQ1hnDoFkoFmIsUB00_CnpEVItDfxWvnQ/edit)
 
 **16. Continuous Delivery:** 
 - We have a Continuous Delivery system running. 
 - When the build is "green", the CD system deploys our software to a production environment ("Production"); when the build is "red", the CD system doesn't alter Production. 
 - The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment.
-- The evidence that our CD system exists and behaves properly is here:
+- The evidence that our CD system exists and behaves properly is here: (https://docs.google.com/document/d/198KfQxxp5BzQ1hnDoFkoFmIsUB00_CnpEVItDfxWvnQ/edit)
 
 ## Sprint Review (bonus!):
 
