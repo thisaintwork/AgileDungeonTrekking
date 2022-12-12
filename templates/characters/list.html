@@ -33,7 +33,6 @@
       <!-- <div class="item"> -->
         <div class="container-sm">
         <figure class="figure">
-            <img width="150" height= "150" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/characters/no_image.png" %}{% endif %}" class="figure-img img-fluid rounded" >
             <figcaption class="figure-caption"><a href="{{ character.get_absolute_url }}">{{ character.name }}</a><br>Class: {{ character.character_class }} Level: {{ character.level}} XP: {{ character.experience_points }}</figcaption>
             </figure>
       </div>

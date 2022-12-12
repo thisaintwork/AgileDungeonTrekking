@@ -6,7 +6,7 @@ from django.test import TestCase, Client
 from django.urls import reverse
 from .models import AdtCharacter, Category
 from .forms import CharacterForm
-import random_name_generator as rname
+import names
 from django.core.files.base import ContentFile
 
 
@@ -59,7 +59,7 @@ class CharactersPageTests(TestCase):
     def create_fighter(self):
         """ Test create fighter character is successful """
 
-        self.fighter_random_name = rname.generate(limit=1)[0]
+        self.fighter_random_name = names.get_full_name()
         self.fighter = AdtCharacter()
         self.fighter.name = self.fighter_random_name
         self.fighter.character_class = 'fighter'
@@ -107,7 +107,7 @@ class CharactersPageTests(TestCase):
     def create_wizard(self):
         """ Test creating a wizard is successful """
 
-        self.wizard_random_name = rname.generate(limit=1)[0]
+        self.wizard_random_name = names.get_full_name()
         self.wizard = AdtCharacter()
         self.wizard.name = self.wizard_random_name
         # simulate saving an image
@@ -181,7 +181,7 @@ class CharactersPageTests(TestCase):
         self.client.logout()
         self.client.login(username=self.user.username, password=self.user_password_text)
         response = self.client.get(reverse('character_add'))
-        self.assertContains(response, "Portrait:")
+        self.assertContains(response, "Class:")
         self.assertContains(response, "Name:")
 
     def test_edit_view(self):
@@ -190,7 +190,6 @@ class CharactersPageTests(TestCase):
         login = self.client.login(username=self.user.username, password=self.user_password_text)
         fighter_id = self.create_fighter()
         response = self.client.get(reverse('character_modify', args=[fighter_id]))
-        self.assertContains(response, "Portrait:")
         self.assertContains(response, "Name:")
 
     def test_edit_view_is_accessible(self):
@@ -241,9 +240,19 @@ class CharacterFormTests(TestCase):
         self.assertEqual(form.fields['name'].label, "Name")
         self.assertEqual(form.fields['name'].help_text, "Leave blank for a random value")
 
-    def test_character_form_image_label(self):
+    def test_character_form_class_label(self):
         form = CharacterForm()
-        self.assertEqual(form.fields['image'].label, "Portrait")
+        self.assertEqual(form.fields['character_class'].label, 'Class')
+
+    def test_character_form_alignment_label(self):
+        form = CharacterForm()
+        self.assertEqual(form.fields['alignment'].label, 'Alignment')
 
 
+    def test_character_form_charisma_label(self):
+        form = CharacterForm()
+        self.assertEqual(form.fields['charisma'].label, 'Charisma')
 
+    def test_character_form_platinum_label(self):
+        form = CharacterForm()
+        self.assertEqual(form.fields['platinum'].label, 'Platinum Pieces')

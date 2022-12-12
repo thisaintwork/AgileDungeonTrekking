@@ -7,7 +7,6 @@
         <link href="{% static "css/characters/characters.css" %}" rel="stylesheet">
     {% endblock extrahead %}
     <div class="character-detail">
-        <img height="150px" width="150px" src="{% if character.image %}{{ character.image.url }}{% else %}{% static "img/characters/no_image.png" %}{% endif %}">
         <h1>{{ character.name }}</h1>
         <p class="h6">Class: {{ character.character_class }}</p>
         <p class="h6">Level: {{ character.level }}</p>
