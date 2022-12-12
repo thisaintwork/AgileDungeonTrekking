@@ -505,6 +505,7 @@ FINAL SPRINT
 
 **7.) Sprint Burndown Chart, URL:**
 We used Miro and continued to track our burndown chart in the chart used in the first sprint: https://miro.com/app/board/uXjVPINglNY=/
+![image](https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/2022-12-12_101511.png)
 
 
 ## Daily Scrums 
