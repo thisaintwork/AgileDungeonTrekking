@@ -484,7 +484,7 @@ For Sprint Retrospective action, see item: #108 in backlog; Our team agreed that
 
 
 FINAL SPRINT
-![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
+
 
 
 # Project Part 4: Final Sprint
@@ -550,6 +550,11 @@ Drew:
 
 
 **13.) Evidence of pair/mob programming, URL:** 
+![image](https://user-images.githubusercontent.com/54752285/205184567-53c25060-155a-4372-b663-dbbed0ac012f.png)
+
+Our team pair mob programmed during multiple meetings this sprint, though one meeting (December 5) was more particularly planned solely for mob programming.
+
+
 
 **14.) Evidence of TDD/unit tests, URL:** 
 - [unit test file] (https://github.com/thisaintwork/AgileDungeonTrekking/blob/main/account/tests.py)
@@ -583,6 +588,7 @@ We keep a Word file (Agile Dungeon Trekking TDD.docx) that documents our Test-fi
 ![image](https://user-images.githubusercontent.com/54752285/206595193-e5f5c082-de71-4f04-afcb-72b6a4885cdd.png)
 ![image](https://user-images.githubusercontent.com/54752285/206595233-154da0c3-ca56-4fb3-8728-3913bbfb76a0.png)
 
+Sprint Review feedback includes the following:
 -capitalize the classes
 -build out the creatures page with 3 creatures
 -try to create a druid character
