@@ -617,9 +617,9 @@ LONGED FOR: Jira or use of widgets in Miro, shared cloud dev environment
 
 
 
-- **action to improve team:** 
+- **action to improve team:** Review and simplify software dependencies
 
-For Sprint Retrospective action, see item: 
+For Sprint Retrospective action, see item: [#115] (https://github.com/thisaintwork/AgileDungeonTrekking/issues/115)
 
 **19.) Note: All of the PBIs in backlog are true user stories**
 
